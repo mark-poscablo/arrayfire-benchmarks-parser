@@ -1,0 +1,2712 @@
+{
+  "context": {
+    "date": "2018-09-12 19:52:19",
+    "executable": "./topk",
+    "num_cpus": 16,
+    "mhz_per_cpu": 2095,
+    "cpu_scaling_enabled": false,
+    "caches": [
+      {
+        "type": "Data",
+        "level": 1,
+        "size": 32000000,
+        "num_sharing": 1
+      },
+      {
+        "type": "Instruction",
+        "level": 1,
+        "size": 32000000,
+        "num_sharing": 1
+      },
+      {
+        "type": "Unified",
+        "level": 2,
+        "size": 4096000000,
+        "num_sharing": 1
+      }
+    ],
+    "library_build_type": "debug"
+  },
+  "benchmarks": [
+    {
+      "name": "topkMemK/f32/[k]:2/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.1772019788622856e+06,
+      "cpu_time": 1.1736029999998009e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 6.1440000000000000e+03
+    },
+    {
+      "name": "topkMemK/f32/[k]:4/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 6.8241776898503304e+05,
+      "cpu_time": 6.8247800000009744e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.0240000000000000e+04
+    },
+    {
+      "name": "topkMemK/f32/[k]:8/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 6.6484929993748665e+05,
+      "cpu_time": 6.6487999999997881e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+04
+    },
+    {
+      "name": "topkMemK/f32/[k]:16/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 6.7435391247272491e+05,
+      "cpu_time": 6.7442500000014505e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 3.8912000000000000e+04
+    },
+    {
+      "name": "topkMemK/f32/[k]:32/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 6.9011468440294266e+05,
+      "cpu_time": 6.9024199999989651e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 7.7824000000000000e+04
+    },
+    {
+      "name": "topkMemK/f32/[k]:64/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 7.0534599944949150e+05,
+      "cpu_time": 7.0530399999979569e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.5360000000000000e+05
+    },
+    {
+      "name": "topkMemK/f32/[k]:128/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 7.3923636227846146e+05,
+      "cpu_time": 7.3918699999975250e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 3.0720000000000000e+05
+    },
+    {
+      "name": "topkMemK/f64/[k]:2/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.1776806786656380e+06,
+      "cpu_time": 1.1776230000000165e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 8.1920000000000000e+03
+    },
+    {
+      "name": "topkMemK/f64/[k]:4/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 9.8522799089550972e+05,
+      "cpu_time": 9.8527700000006217e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.5360000000000000e+04
+    },
+    {
+      "name": "topkMemK/f64/[k]:8/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.1518197134137154e+06,
+      "cpu_time": 1.1516230000001572e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.9696000000000000e+04
+    },
+    {
+      "name": "topkMemK/f64/[k]:16/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 9.7549008205533028e+05,
+      "cpu_time": 9.7540400000006857e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 5.8368000000000000e+04
+    },
+    {
+      "name": "topkMemK/f64/[k]:32/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.1871159076690674e+06,
+      "cpu_time": 1.1873019999999458e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.1571200000000000e+05
+    },
+    {
+      "name": "topkMemK/f64/[k]:64/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.0724160820245743e+06,
+      "cpu_time": 1.0723709999997944e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.3040000000000000e+05
+    },
+    {
+      "name": "topkMemK/f64/[k]:128/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.2575662694871426e+06,
+      "cpu_time": 1.2575790000000086e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 4.6080000000000000e+05
+    },
+    {
+      "name": "topkMemK/u32/[k]:2/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 6.4456043764948845e+05,
+      "cpu_time": 6.4450299999974098e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 6.1440000000000000e+03
+    },
+    {
+      "name": "topkMemK/u32/[k]:4/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 6.4384005963802338e+05,
+      "cpu_time": 6.4390199999975192e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.0240000000000000e+04
+    },
+    {
+      "name": "topkMemK/u32/[k]:8/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 6.5776705741882324e+05,
+      "cpu_time": 6.5788299999991478e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+04
+    },
+    {
+      "name": "topkMemK/u32/[k]:16/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 6.3805608078837395e+05,
+      "cpu_time": 6.3809999999997485e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 3.8912000000000000e+04
+    },
+    {
+      "name": "topkMemK/u32/[k]:32/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 6.3971290364861488e+05,
+      "cpu_time": 6.3982799999995343e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 7.7824000000000000e+04
+    },
+    {
+      "name": "topkMemK/u32/[k]:64/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 6.8592792376875877e+05,
+      "cpu_time": 6.8600999999990361e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.5360000000000000e+05
+    },
+    {
+      "name": "topkMemK/u32/[k]:128/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 7.2548398748040199e+05,
+      "cpu_time": 7.2541600000008976e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 3.0720000000000000e+05
+    },
+    {
+      "name": "topkMemK/s32/[k]:2/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 7.3012290522456169e+05,
+      "cpu_time": 7.3005299999984179e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 6.1440000000000000e+03
+    },
+    {
+      "name": "topkMemK/s32/[k]:4/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 6.4433692023158073e+05,
+      "cpu_time": 6.4437499999980826e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.0240000000000000e+04
+    },
+    {
+      "name": "topkMemK/s32/[k]:8/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 6.6257407888770103e+05,
+      "cpu_time": 6.6257000000025099e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+04
+    },
+    {
+      "name": "topkMemK/s32/[k]:16/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 6.4938701689243317e+05,
+      "cpu_time": 6.4936700000028941e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 3.8912000000000000e+04
+    },
+    {
+      "name": "topkMemK/s32/[k]:32/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 6.4862286671996117e+05,
+      "cpu_time": 6.4856400000001816e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 7.7824000000000000e+04
+    },
+    {
+      "name": "topkMemK/s32/[k]:64/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 6.9655384868383408e+05,
+      "cpu_time": 6.9657400000000536e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.5360000000000000e+05
+    },
+    {
+      "name": "topkMemK/s32/[k]:128/dim0:30000/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 7.2683393955230713e+05,
+      "cpu_time": 7.2670899999982549e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 3.0720000000000000e+05
+    },
+    {
+      "name": "topkMemDims0/f32/k:5/[dim0]:8/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.4026090502738953e+05,
+      "cpu_time": 1.3986799999976539e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims0/f32/k:5/[dim0]:64/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.3592094182968140e+05,
+      "cpu_time": 1.3558400000013292e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims0/f32/k:5/[dim0]:512/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.3971189036965370e+05,
+      "cpu_time": 1.3930900000014290e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims0/f32/k:5/[dim0]:4096/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 2.6063667610287666e+05,
+      "cpu_time": 2.6037400000022969e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+03
+    },
+    {
+      "name": "topkMemDims0/f32/k:5/[dim0]:32768/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 6.8430509418249130e+05,
+      "cpu_time": 6.8426599999993341e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.4336000000000000e+04
+    },
+    {
+      "name": "topkMemDims0/f32/k:5/[dim0]:262144/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 2.3504677228629589e+06,
+      "cpu_time": 2.3502600000000484e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.0240000000000000e+05
+    },
+    {
+      "name": "topkMemDims0/f32/k:5/[dim0]:524288/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 4.5228879898786545e+06,
+      "cpu_time": 4.5220710000002384e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+05
+    },
+    {
+      "name": "topkMemDims0/f64/k:5/[dim0]:8/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 3.0578114092350006e+05,
+      "cpu_time": 3.0554199999999197e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims0/f64/k:5/[dim0]:64/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 2.5646714493632317e+05,
+      "cpu_time": 2.5615800000000632e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims0/f64/k:5/[dim0]:512/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 2.6236707344651222e+05,
+      "cpu_time": 2.6178500000018091e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims0/f64/k:5/[dim0]:4096/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 7.6203327625989914e+05,
+      "cpu_time": 7.6209099999990931e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 3.0720000000000000e+03
+    },
+    {
+      "name": "topkMemDims0/f64/k:5/[dim0]:32768/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.2347758747637272e+06,
+      "cpu_time": 1.2344859999999790e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+04
+    },
+    {
+      "name": "topkMemDims0/f64/k:5/[dim0]:262144/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 5.2739889360964298e+06,
+      "cpu_time": 5.2741139999996638e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.5360000000000000e+05
+    },
+    {
+      "name": "topkMemDims0/f64/k:5/[dim0]:524288/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 9.0377191081643105e+06,
+      "cpu_time": 9.0377500000000671e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 3.0720000000000000e+05
+    },
+    {
+      "name": "topkMemDims0/u32/k:5/[dim0]:8/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.3337517157196999e+05,
+      "cpu_time": 1.3294400000019025e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims0/u32/k:5/[dim0]:64/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.2985523790121078e+05,
+      "cpu_time": 1.2952699999990713e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims0/u32/k:5/[dim0]:512/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.3385619968175888e+05,
+      "cpu_time": 1.3337800000012835e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims0/u32/k:5/[dim0]:4096/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 2.4705287069082260e+05,
+      "cpu_time": 2.4693900000016810e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+03
+    },
+    {
+      "name": "topkMemDims0/u32/k:5/[dim0]:32768/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 6.7468686029314995e+05,
+      "cpu_time": 6.7469599999991909e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.4336000000000000e+04
+    },
+    {
+      "name": "topkMemDims0/u32/k:5/[dim0]:262144/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 2.3747202940285206e+06,
+      "cpu_time": 2.3747179999999977e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.0240000000000000e+05
+    },
+    {
+      "name": "topkMemDims0/u32/k:5/[dim0]:524288/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 4.3121702037751675e+06,
+      "cpu_time": 4.3120909999996293e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+05
+    },
+    {
+      "name": "topkMemDims0/s32/k:5/[dim0]:8/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.4564301818609238e+05,
+      "cpu_time": 1.4540299999987739e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims0/s32/k:5/[dim0]:64/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.4488585293292999e+05,
+      "cpu_time": 1.4464300000005536e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims0/s32/k:5/[dim0]:512/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.4598760753870010e+05,
+      "cpu_time": 1.4566199999999086e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims0/s32/k:5/[dim0]:4096/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 2.9501086100935936e+05,
+      "cpu_time": 2.9484399999990530e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+03
+    },
+    {
+      "name": "topkMemDims0/s32/k:5/[dim0]:32768/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 6.7955441772937775e+05,
+      "cpu_time": 6.7957399999984959e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.4336000000000000e+04
+    },
+    {
+      "name": "topkMemDims0/s32/k:5/[dim0]:262144/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 2.4067107588052750e+06,
+      "cpu_time": 2.4066600000001159e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.0240000000000000e+05
+    },
+    {
+      "name": "topkMemDims0/s32/k:5/[dim0]:524288/dim1:10/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 4.3970951810479164e+06,
+      "cpu_time": 4.3971100000002040e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+05
+    },
+    {
+      "name": "topkMemDims1/f32/k:5/dim0:100/[dim1]:1/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.3740733265876770e+05,
+      "cpu_time": 1.3705600000024631e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/f32/k:5/dim0:100/[dim1]:8/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.3771001249551773e+05,
+      "cpu_time": 1.3737200000019101e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/f32/k:5/dim0:100/[dim1]:64/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.8257414922118187e+05,
+      "cpu_time": 1.8208000000008440e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/f32/k:5/dim0:100/[dim1]:512/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 4.7622388228774071e+05,
+      "cpu_time": 4.7601000000030425e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/f32/k:5/dim0:100/[dim1]:4096/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 2.8690500184893608e+06,
+      "cpu_time": 2.8691630000001746e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/f32/k:5/dim0:100/[dim1]:32768/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 2.1936916746199131e+07,
+      "cpu_time": 2.1744457000000052e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/f32/k:5/dim0:100/[dim1]:65536/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 9.3039125204086304e+04,
+      "cpu_time": 9.2694000000115295e+04,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/f64/k:5/dim0:100/[dim1]:1/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.7431005835533142e+05,
+      "cpu_time": 1.7396299999994368e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/f64/k:5/dim0:100/[dim1]:8/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.7074495553970337e+05,
+      "cpu_time": 1.7067199999987183e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/f64/k:5/dim0:100/[dim1]:64/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 2.5024963542819023e+05,
+      "cpu_time": 2.5002400000007087e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/f64/k:5/dim0:100/[dim1]:512/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 9.5084682106971741e+05,
+      "cpu_time": 9.5082200000007334e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/f64/k:5/dim0:100/[dim1]:4096/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 6.4320610836148262e+06,
+      "cpu_time": 6.4319779999997271e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/f64/k:5/dim0:100/[dim1]:32768/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 5.0302613060921431e+07,
+      "cpu_time": 5.0302736999999985e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/f64/k:5/dim0:100/[dim1]:65536/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 2.8942385688424110e+05,
+      "cpu_time": 2.8929200000016310e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/u32/k:5/dim0:100/[dim1]:1/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.3034371659159660e+05,
+      "cpu_time": 1.3006899999989940e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/u32/k:5/dim0:100/[dim1]:8/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.5595788136124611e+05,
+      "cpu_time": 1.5583499999971551e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/u32/k:5/dim0:100/[dim1]:64/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.5774508938193321e+05,
+      "cpu_time": 1.5726999999987613e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/u32/k:5/dim0:100/[dim1]:512/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 4.5400997623801231e+05,
+      "cpu_time": 4.5358099999992520e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/u32/k:5/dim0:100/[dim1]:4096/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 2.7828412130475044e+06,
+      "cpu_time": 2.7826509999999693e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/u32/k:5/dim0:100/[dim1]:32768/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 2.1397434640675783e+07,
+      "cpu_time": 2.1273652000000086e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/u32/k:5/dim0:100/[dim1]:65536/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 8.6703803390264511e+04,
+      "cpu_time": 8.6242999999708307e+04,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/s32/k:5/dim0:100/[dim1]:1/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.3855285942554474e+05,
+      "cpu_time": 1.3809700000022573e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/s32/k:5/dim0:100/[dim1]:8/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.3742269948124886e+05,
+      "cpu_time": 1.3720999999966566e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/s32/k:5/dim0:100/[dim1]:64/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.7990404739975929e+05,
+      "cpu_time": 1.7962399999982282e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/s32/k:5/dim0:100/[dim1]:512/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 4.3789669871330261e+05,
+      "cpu_time": 4.3778899999979971e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/s32/k:5/dim0:100/[dim1]:4096/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 2.5578271597623825e+06,
+      "cpu_time": 2.5575390000001085e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/s32/k:5/dim0:100/[dim1]:32768/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 1.9529462326318026e+07,
+      "cpu_time": 1.9465776000000101e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topkMemDims1/s32/k:5/dim0:100/[dim1]:65536/iterations:1",
+      "run_type": "iteration",
+      "iterations": 1,
+      "real_time": 9.7183044999837875e+04,
+      "cpu_time": 9.7112999999815482e+04,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/[k]:2/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2087,
+      "real_time": 3.0912153238085221e+05,
+      "cpu_time": 3.0826531097268820e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 6.1440000000000000e+03
+    },
+    {
+      "name": "topk/f32/[k]:4/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2278,
+      "real_time": 3.0164537183561013e+05,
+      "cpu_time": 3.0145892361720814e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.0240000000000000e+04
+    },
+    {
+      "name": "topk/f32/[k]:8/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2314,
+      "real_time": 3.0133628037692973e+05,
+      "cpu_time": 3.0116107476231630e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+04
+    },
+    {
+      "name": "topk/f32/[k]:16/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2350,
+      "real_time": 2.9717826819483272e+05,
+      "cpu_time": 2.9702409617021302e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 3.8912000000000000e+04
+    },
+    {
+      "name": "topk/f32/[k]:32/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2342,
+      "real_time": 2.9730529883871670e+05,
+      "cpu_time": 2.9714432749786478e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 7.7824000000000000e+04
+    },
+    {
+      "name": "topk/f32/[k]:64/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2077,
+      "real_time": 3.3654556280117686e+05,
+      "cpu_time": 3.3635020751083258e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.5360000000000000e+05
+    },
+    {
+      "name": "topk/f32/[k]:128/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2002,
+      "real_time": 3.5016528692665871e+05,
+      "cpu_time": 3.4998392857142858e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 3.0720000000000000e+05
+    },
+    {
+      "name": "topk/f32/[k]:256/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 1695,
+      "real_time": 4.1404205558486393e+05,
+      "cpu_time": 4.1384726076696150e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 6.1440000000000000e+05
+    },
+    {
+      "name": "topk/f64/[k]:2/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 1279,
+      "real_time": 5.4407554210409045e+05,
+      "cpu_time": 5.4373997498045408e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 8.1920000000000000e+03
+    },
+    {
+      "name": "topk/f64/[k]:4/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 1283,
+      "real_time": 5.4415515046900639e+05,
+      "cpu_time": 5.4382187373343657e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.5360000000000000e+04
+    },
+    {
+      "name": "topk/f64/[k]:8/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 1280,
+      "real_time": 5.4447201437142212e+05,
+      "cpu_time": 5.4402736796875100e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.9696000000000000e+04
+    },
+    {
+      "name": "topk/f64/[k]:16/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 1278,
+      "real_time": 5.4599796800767782e+05,
+      "cpu_time": 5.4554866588419373e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 5.8368000000000000e+04
+    },
+    {
+      "name": "topk/f64/[k]:32/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 1276,
+      "real_time": 5.4666266935734451e+05,
+      "cpu_time": 5.4639733934169321e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.1571200000000000e+05
+    },
+    {
+      "name": "topk/f64/[k]:64/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 1140,
+      "real_time": 6.1263929104857275e+05,
+      "cpu_time": 6.1217788684210496e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.3040000000000000e+05
+    },
+    {
+      "name": "topk/f64/[k]:128/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 1089,
+      "real_time": 6.3829397683479136e+05,
+      "cpu_time": 6.3791437649219437e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 4.6080000000000000e+05
+    },
+    {
+      "name": "topk/f64/[k]:256/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 928,
+      "real_time": 7.5361428979045618e+05,
+      "cpu_time": 7.5317235129310307e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 9.2160000000000000e+05
+    },
+    {
+      "name": "topk/u32/[k]:2/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2406,
+      "real_time": 2.9148179449370177e+05,
+      "cpu_time": 2.9137911886949243e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 6.1440000000000000e+03
+    },
+    {
+      "name": "topk/u32/[k]:4/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2399,
+      "real_time": 2.9230491258592193e+05,
+      "cpu_time": 2.9212368278449221e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.0240000000000000e+04
+    },
+    {
+      "name": "topk/u32/[k]:8/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2392,
+      "real_time": 2.9231390540478722e+05,
+      "cpu_time": 2.9223579222408013e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+04
+    },
+    {
+      "name": "topk/u32/[k]:16/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2385,
+      "real_time": 2.9348870016931236e+05,
+      "cpu_time": 2.9333616603773495e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 3.8912000000000000e+04
+    },
+    {
+      "name": "topk/u32/[k]:32/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2384,
+      "real_time": 2.9347015305691015e+05,
+      "cpu_time": 2.9333493917785335e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 7.7824000000000000e+04
+    },
+    {
+      "name": "topk/u32/[k]:64/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2113,
+      "real_time": 3.3276326693435782e+05,
+      "cpu_time": 3.3218182016090851e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.5360000000000000e+05
+    },
+    {
+      "name": "topk/u32/[k]:128/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2030,
+      "real_time": 3.4553299639649288e+05,
+      "cpu_time": 3.4535026896551700e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 3.0720000000000000e+05
+    },
+    {
+      "name": "topk/u32/[k]:256/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 1568,
+      "real_time": 4.1552657013217331e+05,
+      "cpu_time": 4.1505718176020426e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 6.1440000000000000e+05
+    },
+    {
+      "name": "topk/s32/[k]:2/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2274,
+      "real_time": 3.0821663935291162e+05,
+      "cpu_time": 3.0781307519788871e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 6.1440000000000000e+03
+    },
+    {
+      "name": "topk/s32/[k]:4/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2259,
+      "real_time": 3.0858645890932158e+05,
+      "cpu_time": 3.0828712084993371e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.0240000000000000e+04
+    },
+    {
+      "name": "topk/s32/[k]:8/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2271,
+      "real_time": 3.0864360227603471e+05,
+      "cpu_time": 3.0822547996477247e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+04
+    },
+    {
+      "name": "topk/s32/[k]:16/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2260,
+      "real_time": 3.2787227393251605e+05,
+      "cpu_time": 3.2741271150442422e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 3.8912000000000000e+04
+    },
+    {
+      "name": "topk/s32/[k]:32/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2136,
+      "real_time": 3.2937964175963838e+05,
+      "cpu_time": 3.2903461750936304e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 7.7824000000000000e+04
+    },
+    {
+      "name": "topk/s32/[k]:64/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 1925,
+      "real_time": 3.6403602085910836e+05,
+      "cpu_time": 3.6348535688311665e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.5360000000000000e+05
+    },
+    {
+      "name": "topk/s32/[k]:128/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 1854,
+      "real_time": 3.7812848777350486e+05,
+      "cpu_time": 3.7770481499460456e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 3.0720000000000000e+05
+    },
+    {
+      "name": "topk/s32/[k]:256/dim0:30000/dim1:10",
+      "run_type": "iteration",
+      "iterations": 1584,
+      "real_time": 4.4251268116917199e+05,
+      "cpu_time": 4.4214334027777484e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 6.1440000000000000e+05
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:8/dim1:10",
+      "run_type": "iteration",
+      "iterations": 6622,
+      "real_time": 1.0844976126492851e+05,
+      "cpu_time": 1.0834037964361216e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:16/dim1:10",
+      "run_type": "iteration",
+      "iterations": 6519,
+      "real_time": 1.0546675992809313e+05,
+      "cpu_time": 1.0535226292376089e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:32/dim1:10",
+      "run_type": "iteration",
+      "iterations": 6709,
+      "real_time": 1.0133546878822356e+05,
+      "cpu_time": 1.0124973155462822e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:64/dim1:10",
+      "run_type": "iteration",
+      "iterations": 6978,
+      "real_time": 1.0983796244901977e+05,
+      "cpu_time": 1.0966800472914880e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:128/dim1:10",
+      "run_type": "iteration",
+      "iterations": 6581,
+      "real_time": 1.0631074197731868e+05,
+      "cpu_time": 1.0618132867345391e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:256/dim1:10",
+      "run_type": "iteration",
+      "iterations": 6601,
+      "real_time": 1.0693617287270952e+05,
+      "cpu_time": 1.0676335585517275e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:512/dim1:10",
+      "run_type": "iteration",
+      "iterations": 6518,
+      "real_time": 1.0786577994898350e+05,
+      "cpu_time": 1.0770444645596862e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:1024/dim1:10",
+      "run_type": "iteration",
+      "iterations": 6449,
+      "real_time": 1.0859852256407884e+05,
+      "cpu_time": 1.0848653713754083e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:2048/dim1:10",
+      "run_type": "iteration",
+      "iterations": 4054,
+      "real_time": 1.7283518546406541e+05,
+      "cpu_time": 1.7258111938825893e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+03
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:4096/dim1:10",
+      "run_type": "iteration",
+      "iterations": 3677,
+      "real_time": 1.9140117759934126e+05,
+      "cpu_time": 1.9124210416099973e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+03
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:8192/dim1:10",
+      "run_type": "iteration",
+      "iterations": 3128,
+      "real_time": 2.2386530499972042e+05,
+      "cpu_time": 2.2355543414322141e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 4.0960000000000000e+03
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:16384/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2497,
+      "real_time": 2.5206957941872624e+05,
+      "cpu_time": 2.5182764317180592e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 8.1920000000000000e+03
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:32768/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2142,
+      "real_time": 3.0712337197473290e+05,
+      "cpu_time": 3.0673778244631179e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.4336000000000000e+04
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:65536/dim1:10",
+      "run_type": "iteration",
+      "iterations": 1453,
+      "real_time": 4.8324106843130634e+05,
+      "cpu_time": 4.8240072539573599e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.6624000000000000e+04
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:131072/dim1:10",
+      "run_type": "iteration",
+      "iterations": 851,
+      "real_time": 8.2126196110500710e+05,
+      "cpu_time": 8.2016764394829446e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 5.1200000000000000e+04
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:262144/dim1:10",
+      "run_type": "iteration",
+      "iterations": 455,
+      "real_time": 1.5377346835621111e+06,
+      "cpu_time": 1.5368272197802158e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.0240000000000000e+05
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:524288/dim1:10",
+      "run_type": "iteration",
+      "iterations": 242,
+      "real_time": 2.8986681872316874e+06,
+      "cpu_time": 2.8962640454545263e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+05
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:1048576/dim1:10",
+      "run_type": "iteration",
+      "iterations": 125,
+      "real_time": 5.6059497185051441e+06,
+      "cpu_time": 5.6025876159999939e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 4.0960000000000000e+05
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:2097152/dim1:10",
+      "run_type": "iteration",
+      "iterations": 64,
+      "real_time": 1.1037961354304571e+07,
+      "cpu_time": 1.1026335859375069e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 8.1920000000000000e+05
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:4194304/dim1:10",
+      "run_type": "iteration",
+      "iterations": 32,
+      "real_time": 2.1917067511822097e+07,
+      "cpu_time": 2.1885253437500030e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.6384000000000000e+06
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:8388608/dim1:10",
+      "run_type": "iteration",
+      "iterations": 16,
+      "real_time": 4.3744640424847603e+07,
+      "cpu_time": 4.3641175749999925e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 3.2768000000000000e+06
+    },
+    {
+      "name": "topk/f32/k:5/[dim0]:16777216/dim1:10",
+      "run_type": "iteration",
+      "iterations": 8,
+      "real_time": 8.7002528249286115e+07,
+      "cpu_time": 8.6910442375000224e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 6.5536000000000000e+06
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:8/dim1:10",
+      "run_type": "iteration",
+      "iterations": 5729,
+      "real_time": 1.2290078132556546e+05,
+      "cpu_time": 1.2273763728399403e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:16/dim1:10",
+      "run_type": "iteration",
+      "iterations": 5806,
+      "real_time": 1.2041077972526103e+05,
+      "cpu_time": 1.2029192249397107e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:32/dim1:10",
+      "run_type": "iteration",
+      "iterations": 5799,
+      "real_time": 1.2038736940612257e+05,
+      "cpu_time": 1.2027763735126746e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:64/dim1:10",
+      "run_type": "iteration",
+      "iterations": 5805,
+      "real_time": 1.1994471744626992e+05,
+      "cpu_time": 1.1981044702842347e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:128/dim1:10",
+      "run_type": "iteration",
+      "iterations": 5820,
+      "real_time": 1.2021171876398969e+05,
+      "cpu_time": 1.2013958024054988e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:256/dim1:10",
+      "run_type": "iteration",
+      "iterations": 5788,
+      "real_time": 1.2123009034528371e+05,
+      "cpu_time": 1.2105080286800316e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:512/dim1:10",
+      "run_type": "iteration",
+      "iterations": 5427,
+      "real_time": 1.3085948593361241e+05,
+      "cpu_time": 1.3073661415146470e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:1024/dim1:10",
+      "run_type": "iteration",
+      "iterations": 5397,
+      "real_time": 1.2783173537953421e+05,
+      "cpu_time": 1.2771248045210392e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:2048/dim1:10",
+      "run_type": "iteration",
+      "iterations": 3385,
+      "real_time": 2.0267654793609367e+05,
+      "cpu_time": 2.0241313116691148e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+03
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:4096/dim1:10",
+      "run_type": "iteration",
+      "iterations": 3137,
+      "real_time": 2.2346811303153401e+05,
+      "cpu_time": 2.2329906598661057e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 3.0720000000000000e+03
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:8192/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2570,
+      "real_time": 2.7213436152771523e+05,
+      "cpu_time": 2.7194103463034844e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 6.1440000000000000e+03
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:16384/dim1:10",
+      "run_type": "iteration",
+      "iterations": 1871,
+      "real_time": 3.8942920675233431e+05,
+      "cpu_time": 3.8907294334580156e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.1264000000000000e+04
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:32768/dim1:10",
+      "run_type": "iteration",
+      "iterations": 1178,
+      "real_time": 5.9121645234386064e+05,
+      "cpu_time": 5.9048043803056213e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+04
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:65536/dim1:10",
+      "run_type": "iteration",
+      "iterations": 715,
+      "real_time": 9.7380584118874755e+05,
+      "cpu_time": 9.7321347552446532e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 3.8912000000000000e+04
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:131072/dim1:10",
+      "run_type": "iteration",
+      "iterations": 402,
+      "real_time": 1.7494590123605670e+06,
+      "cpu_time": 1.7477503233830961e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 7.6800000000000000e+04
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:262144/dim1:10",
+      "run_type": "iteration",
+      "iterations": 209,
+      "real_time": 3.3522160951065961e+06,
+      "cpu_time": 3.3501774784688838e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.5360000000000000e+05
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:524288/dim1:10",
+      "run_type": "iteration",
+      "iterations": 108,
+      "real_time": 6.4361484816159913e+06,
+      "cpu_time": 6.4243539722222174e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 3.0720000000000000e+05
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:1048576/dim1:10",
+      "run_type": "iteration",
+      "iterations": 55,
+      "real_time": 1.2596960365772247e+07,
+      "cpu_time": 1.2588725981818138e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 6.1440000000000000e+05
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:2097152/dim1:10",
+      "run_type": "iteration",
+      "iterations": 28,
+      "real_time": 2.5291421434043773e+07,
+      "cpu_time": 2.5212623071428400e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.2288000000000000e+06
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:4194304/dim1:10",
+      "run_type": "iteration",
+      "iterations": 13,
+      "real_time": 5.0106667519475408e+07,
+      "cpu_time": 5.0106655461538948e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.4576000000000000e+06
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:8388608/dim1:10",
+      "run_type": "iteration",
+      "iterations": 7,
+      "real_time": 1.0013416283098714e+08,
+      "cpu_time": 1.0013414457142745e+08,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 4.9152000000000000e+06
+    },
+    {
+      "name": "topk/f64/k:5/[dim0]:16777216/dim1:10",
+      "run_type": "iteration",
+      "iterations": 3,
+      "real_time": 1.9981456827372313e+08,
+      "cpu_time": 1.9980933166666639e+08,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 9.8304000000000000e+06
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:8/dim1:10",
+      "run_type": "iteration",
+      "iterations": 7522,
+      "real_time": 9.2533891869531100e+04,
+      "cpu_time": 9.2530368386067174e+04,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:16/dim1:10",
+      "run_type": "iteration",
+      "iterations": 7602,
+      "real_time": 9.3213486198754385e+04,
+      "cpu_time": 9.3212963036041896e+04,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:32/dim1:10",
+      "run_type": "iteration",
+      "iterations": 7393,
+      "real_time": 9.4396027993477837e+04,
+      "cpu_time": 9.4392394968213717e+04,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:64/dim1:10",
+      "run_type": "iteration",
+      "iterations": 7585,
+      "real_time": 9.2438329072594250e+04,
+      "cpu_time": 9.2438312854318123e+04,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:128/dim1:10",
+      "run_type": "iteration",
+      "iterations": 7514,
+      "real_time": 9.4484338970170211e+04,
+      "cpu_time": 9.4480009315942647e+04,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:256/dim1:10",
+      "run_type": "iteration",
+      "iterations": 7333,
+      "real_time": 9.5302136885437882e+04,
+      "cpu_time": 9.5298911632346688e+04,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:512/dim1:10",
+      "run_type": "iteration",
+      "iterations": 7276,
+      "real_time": 9.6404092609595638e+04,
+      "cpu_time": 9.6403515667948785e+04,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:1024/dim1:10",
+      "run_type": "iteration",
+      "iterations": 7395,
+      "real_time": 9.4845833003702312e+04,
+      "cpu_time": 9.4842565382014523e+04,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:2048/dim1:10",
+      "run_type": "iteration",
+      "iterations": 4860,
+      "real_time": 1.4570289609547507e+05,
+      "cpu_time": 1.4570289279835499e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+03
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:4096/dim1:10",
+      "run_type": "iteration",
+      "iterations": 4400,
+      "real_time": 1.5831901459023356e+05,
+      "cpu_time": 1.5831632727272969e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+03
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:8192/dim1:10",
+      "run_type": "iteration",
+      "iterations": 3392,
+      "real_time": 2.1202399553006233e+05,
+      "cpu_time": 2.1202395371462233e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 4.0960000000000000e+03
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:16384/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2590,
+      "real_time": 2.5429485480815289e+05,
+      "cpu_time": 2.5429486718146727e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 8.1920000000000000e+03
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:32768/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2096,
+      "real_time": 3.1700647700016334e+05,
+      "cpu_time": 3.1700639503816387e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.4336000000000000e+04
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:65536/dim1:10",
+      "run_type": "iteration",
+      "iterations": 1406,
+      "real_time": 4.9666029793259344e+05,
+      "cpu_time": 4.9661100995731814e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.6624000000000000e+04
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:131072/dim1:10",
+      "run_type": "iteration",
+      "iterations": 825,
+      "real_time": 8.4956967525861482e+05,
+      "cpu_time": 8.4956961454545113e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 5.1200000000000000e+04
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:262144/dim1:10",
+      "run_type": "iteration",
+      "iterations": 440,
+      "real_time": 1.5951427969742904e+06,
+      "cpu_time": 1.5951432613636418e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.0240000000000000e+05
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:524288/dim1:10",
+      "run_type": "iteration",
+      "iterations": 232,
+      "real_time": 3.0037368194135870e+06,
+      "cpu_time": 3.0002838232758613e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+05
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:1048576/dim1:10",
+      "run_type": "iteration",
+      "iterations": 120,
+      "real_time": 5.8071734732948244e+06,
+      "cpu_time": 5.8001408416667273e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 4.0960000000000000e+05
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:2097152/dim1:10",
+      "run_type": "iteration",
+      "iterations": 61,
+      "real_time": 1.1419689030859802e+07,
+      "cpu_time": 1.1405085934426297e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 8.1920000000000000e+05
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:4194304/dim1:10",
+      "run_type": "iteration",
+      "iterations": 31,
+      "real_time": 2.2668897865280028e+07,
+      "cpu_time": 2.2643582193548322e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.6384000000000000e+06
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:8388608/dim1:10",
+      "run_type": "iteration",
+      "iterations": 16,
+      "real_time": 4.5220879750559106e+07,
+      "cpu_time": 4.5192278437499844e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 3.2768000000000000e+06
+    },
+    {
+      "name": "topk/u32/k:5/[dim0]:16777216/dim1:10",
+      "run_type": "iteration",
+      "iterations": 7,
+      "real_time": 9.0037963685712650e+07,
+      "cpu_time": 8.9930679857143253e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 6.5536000000000000e+06
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:8/dim1:10",
+      "run_type": "iteration",
+      "iterations": 6310,
+      "real_time": 1.1328929635251853e+05,
+      "cpu_time": 1.1315596973058785e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:16/dim1:10",
+      "run_type": "iteration",
+      "iterations": 6094,
+      "real_time": 1.1519195649786331e+05,
+      "cpu_time": 1.1508151624548875e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:32/dim1:10",
+      "run_type": "iteration",
+      "iterations": 6050,
+      "real_time": 1.1615511276258909e+05,
+      "cpu_time": 1.1604403801652927e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:64/dim1:10",
+      "run_type": "iteration",
+      "iterations": 6040,
+      "real_time": 1.1552204871365172e+05,
+      "cpu_time": 1.1546543062914048e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:128/dim1:10",
+      "run_type": "iteration",
+      "iterations": 6042,
+      "real_time": 1.1562721876847412e+05,
+      "cpu_time": 1.1556003409466926e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:256/dim1:10",
+      "run_type": "iteration",
+      "iterations": 6007,
+      "real_time": 1.1648814111268320e+05,
+      "cpu_time": 1.1638241851173772e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:512/dim1:10",
+      "run_type": "iteration",
+      "iterations": 5930,
+      "real_time": 1.1658059326306764e+05,
+      "cpu_time": 1.1639239494097806e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:1024/dim1:10",
+      "run_type": "iteration",
+      "iterations": 6068,
+      "real_time": 1.1735807957855804e+05,
+      "cpu_time": 1.1724774604482525e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:2048/dim1:10",
+      "run_type": "iteration",
+      "iterations": 4053,
+      "real_time": 1.7335201385427546e+05,
+      "cpu_time": 1.7320888872440290e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+03
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:4096/dim1:10",
+      "run_type": "iteration",
+      "iterations": 3809,
+      "real_time": 1.8308899786159978e+05,
+      "cpu_time": 1.8290736177474266e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+03
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:8192/dim1:10",
+      "run_type": "iteration",
+      "iterations": 3492,
+      "real_time": 2.0520141407450553e+05,
+      "cpu_time": 2.0505598024055132e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 4.0960000000000000e+03
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:16384/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2780,
+      "real_time": 2.5381246621874598e+05,
+      "cpu_time": 2.5361480035970849e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 8.1920000000000000e+03
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:32768/dim1:10",
+      "run_type": "iteration",
+      "iterations": 2046,
+      "real_time": 3.3914421995480853e+05,
+      "cpu_time": 3.3882965689149982e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.4336000000000000e+04
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:65536/dim1:10",
+      "run_type": "iteration",
+      "iterations": 1343,
+      "real_time": 5.1741577804155165e+05,
+      "cpu_time": 5.1705849218168814e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.6624000000000000e+04
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:131072/dim1:10",
+      "run_type": "iteration",
+      "iterations": 808,
+      "real_time": 8.7259663326555106e+05,
+      "cpu_time": 8.7145668688118772e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 5.1200000000000000e+04
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:262144/dim1:10",
+      "run_type": "iteration",
+      "iterations": 432,
+      "real_time": 1.6205279012124434e+06,
+      "cpu_time": 1.6186589537036894e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.0240000000000000e+05
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:524288/dim1:10",
+      "run_type": "iteration",
+      "iterations": 231,
+      "real_time": 3.0353119701663139e+06,
+      "cpu_time": 3.0319100909090526e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 2.0480000000000000e+05
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:1048576/dim1:10",
+      "run_type": "iteration",
+      "iterations": 119,
+      "real_time": 5.8531175727541205e+06,
+      "cpu_time": 5.8429916050419724e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 4.0960000000000000e+05
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:2097152/dim1:10",
+      "run_type": "iteration",
+      "iterations": 61,
+      "real_time": 1.1490478562038453e+07,
+      "cpu_time": 1.1481038983606547e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 8.1920000000000000e+05
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:4194304/dim1:10",
+      "run_type": "iteration",
+      "iterations": 31,
+      "real_time": 2.2798800450419225e+07,
+      "cpu_time": 2.2781869677419215e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 1.6384000000000000e+06
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:8388608/dim1:10",
+      "run_type": "iteration",
+      "iterations": 15,
+      "real_time": 4.5485822080324091e+07,
+      "cpu_time": 4.5447576066666789e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 3.2768000000000000e+06
+    },
+    {
+      "name": "topk/s32/k:5/[dim0]:16777216/dim1:10",
+      "run_type": "iteration",
+      "iterations": 7,
+      "real_time": 9.0489007998257875e+07,
+      "cpu_time": 9.0416231285713270e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 2.0000000000000000e+00,
+      "alloc_bytes": 6.5536000000000000e+06
+    },
+    {
+      "name": "topk/f32/k:5/dim0:100/[dim1]:1",
+      "run_type": "iteration",
+      "iterations": 6648,
+      "real_time": 1.0396117987794853e+05,
+      "cpu_time": 1.0390597111913351e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/dim0:100/[dim1]:2",
+      "run_type": "iteration",
+      "iterations": 7365,
+      "real_time": 9.9471522316852555e+04,
+      "cpu_time": 9.9381100475221348e+04,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/dim0:100/[dim1]:4",
+      "run_type": "iteration",
+      "iterations": 6826,
+      "real_time": 1.0285016073968940e+05,
+      "cpu_time": 1.0276215748608150e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/dim0:100/[dim1]:8",
+      "run_type": "iteration",
+      "iterations": 6772,
+      "real_time": 1.0309566656205687e+05,
+      "cpu_time": 1.0301005404607298e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/dim0:100/[dim1]:16",
+      "run_type": "iteration",
+      "iterations": 6644,
+      "real_time": 1.0566579103402565e+05,
+      "cpu_time": 1.0557621192052978e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/dim0:100/[dim1]:32",
+      "run_type": "iteration",
+      "iterations": 6483,
+      "real_time": 1.0736496112327067e+05,
+      "cpu_time": 1.0726795742711760e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/dim0:100/[dim1]:64",
+      "run_type": "iteration",
+      "iterations": 6121,
+      "real_time": 1.2041682458402499e+05,
+      "cpu_time": 1.2034587109949313e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/dim0:100/[dim1]:128",
+      "run_type": "iteration",
+      "iterations": 4345,
+      "real_time": 1.6188761401574273e+05,
+      "cpu_time": 1.6169821173762923e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/dim0:100/[dim1]:256",
+      "run_type": "iteration",
+      "iterations": 3078,
+      "real_time": 2.2919303534856238e+05,
+      "cpu_time": 2.2906905750487669e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/dim0:100/[dim1]:512",
+      "run_type": "iteration",
+      "iterations": 1970,
+      "real_time": 3.5572282492471527e+05,
+      "cpu_time": 3.5548007868020254e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/dim0:100/[dim1]:1024",
+      "run_type": "iteration",
+      "iterations": 1162,
+      "real_time": 6.0465801811797894e+05,
+      "cpu_time": 6.0400733993116277e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/dim0:100/[dim1]:2048",
+      "run_type": "iteration",
+      "iterations": 636,
+      "real_time": 1.1000529366527807e+06,
+      "cpu_time": 1.0987349025157255e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/dim0:100/[dim1]:4096",
+      "run_type": "iteration",
+      "iterations": 335,
+      "real_time": 2.0871047500465342e+06,
+      "cpu_time": 2.0850261313432669e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/dim0:100/[dim1]:8192",
+      "run_type": "iteration",
+      "iterations": 172,
+      "real_time": 4.0844801331458744e+06,
+      "cpu_time": 4.0810053720930512e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/dim0:100/[dim1]:16384",
+      "run_type": "iteration",
+      "iterations": 87,
+      "real_time": 8.0399544021093296e+06,
+      "cpu_time": 8.0325693908045823e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f32/k:5/dim0:100/[dim1]:32768",
+      "run_type": "iteration",
+      "iterations": 44,
+      "real_time": 1.5963377251120454e+07,
+      "cpu_time": 1.5951405363636183e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/dim0:100/[dim1]:1",
+      "run_type": "iteration",
+      "iterations": 5826,
+      "real_time": 1.1989716630668174e+05,
+      "cpu_time": 1.1979098764160696e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/dim0:100/[dim1]:2",
+      "run_type": "iteration",
+      "iterations": 5754,
+      "real_time": 1.1994331093620915e+05,
+      "cpu_time": 1.1987389989572715e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/dim0:100/[dim1]:4",
+      "run_type": "iteration",
+      "iterations": 5846,
+      "real_time": 1.1985072849514017e+05,
+      "cpu_time": 1.1970683664043642e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/dim0:100/[dim1]:8",
+      "run_type": "iteration",
+      "iterations": 5550,
+      "real_time": 1.5151467644148043e+05,
+      "cpu_time": 1.5138924774775049e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/dim0:100/[dim1]:16",
+      "run_type": "iteration",
+      "iterations": 4345,
+      "real_time": 1.6218854523809376e+05,
+      "cpu_time": 1.6204326789413588e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/dim0:100/[dim1]:32",
+      "run_type": "iteration",
+      "iterations": 3879,
+      "real_time": 1.8174163855518162e+05,
+      "cpu_time": 1.8156766950244360e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/dim0:100/[dim1]:64",
+      "run_type": "iteration",
+      "iterations": 3021,
+      "real_time": 2.3387623667218795e+05,
+      "cpu_time": 2.3364057100297438e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/dim0:100/[dim1]:128",
+      "run_type": "iteration",
+      "iterations": 2160,
+      "real_time": 2.7163386909739563e+05,
+      "cpu_time": 2.7136603009258688e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/dim0:100/[dim1]:256",
+      "run_type": "iteration",
+      "iterations": 1698,
+      "real_time": 4.1199238993911986e+05,
+      "cpu_time": 4.1150864252060041e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/dim0:100/[dim1]:512",
+      "run_type": "iteration",
+      "iterations": 999,
+      "real_time": 7.0365145149919484e+05,
+      "cpu_time": 7.0292694594594499e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/dim0:100/[dim1]:1024",
+      "run_type": "iteration",
+      "iterations": 551,
+      "real_time": 1.2712742560314937e+06,
+      "cpu_time": 1.2699514591651501e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/dim0:100/[dim1]:2048",
+      "run_type": "iteration",
+      "iterations": 290,
+      "real_time": 2.4166545445292159e+06,
+      "cpu_time": 2.4142045827586809e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/dim0:100/[dim1]:4096",
+      "run_type": "iteration",
+      "iterations": 149,
+      "real_time": 4.6976950525887460e+06,
+      "cpu_time": 4.6907486308725383e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/dim0:100/[dim1]:8192",
+      "run_type": "iteration",
+      "iterations": 76,
+      "real_time": 9.2625328168076910e+06,
+      "cpu_time": 9.2522488157892488e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/dim0:100/[dim1]:16384",
+      "run_type": "iteration",
+      "iterations": 38,
+      "real_time": 1.8382314139192827e+07,
+      "cpu_time": 1.8366063842105076e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/f64/k:5/dim0:100/[dim1]:32768",
+      "run_type": "iteration",
+      "iterations": 19,
+      "real_time": 3.6617897475432411e+07,
+      "cpu_time": 3.6578568947368540e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/dim0:100/[dim1]:1",
+      "run_type": "iteration",
+      "iterations": 7022,
+      "real_time": 9.8780230588508581e+04,
+      "cpu_time": 9.8708130019937744e+04,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/dim0:100/[dim1]:2",
+      "run_type": "iteration",
+      "iterations": 7077,
+      "real_time": 1.0870451816147509e+05,
+      "cpu_time": 1.0863545824501688e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/dim0:100/[dim1]:4",
+      "run_type": "iteration",
+      "iterations": 6852,
+      "real_time": 9.8124529143726861e+04,
+      "cpu_time": 9.8123956217166036e+04,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/dim0:100/[dim1]:8",
+      "run_type": "iteration",
+      "iterations": 7457,
+      "real_time": 9.5337218609602918e+04,
+      "cpu_time": 9.5333780072417925e+04,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/dim0:100/[dim1]:16",
+      "run_type": "iteration",
+      "iterations": 6771,
+      "real_time": 1.0157996866196777e+05,
+      "cpu_time": 1.0157522182838469e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/dim0:100/[dim1]:32",
+      "run_type": "iteration",
+      "iterations": 6848,
+      "real_time": 1.0001456836090537e+05,
+      "cpu_time": 1.0001455315420758e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/dim0:100/[dim1]:64",
+      "run_type": "iteration",
+      "iterations": 6315,
+      "real_time": 1.0711753664218237e+05,
+      "cpu_time": 1.0711416658748950e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/dim0:100/[dim1]:128",
+      "run_type": "iteration",
+      "iterations": 5005,
+      "real_time": 1.4002331952144811e+05,
+      "cpu_time": 1.4002274205794081e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/dim0:100/[dim1]:256",
+      "run_type": "iteration",
+      "iterations": 3424,
+      "real_time": 2.0738536950035422e+05,
+      "cpu_time": 2.0737972546729192e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/dim0:100/[dim1]:512",
+      "run_type": "iteration",
+      "iterations": 2127,
+      "real_time": 3.2730509960944235e+05,
+      "cpu_time": 3.2730322190879117e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/dim0:100/[dim1]:1024",
+      "run_type": "iteration",
+      "iterations": 1230,
+      "real_time": 5.6962989671988704e+05,
+      "cpu_time": 5.6961447804876743e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/dim0:100/[dim1]:2048",
+      "run_type": "iteration",
+      "iterations": 663,
+      "real_time": 1.0562356818484236e+06,
+      "cpu_time": 1.0562291779788493e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/dim0:100/[dim1]:4096",
+      "run_type": "iteration",
+      "iterations": 346,
+      "real_time": 2.0258288206048096e+06,
+      "cpu_time": 2.0257682514450923e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/dim0:100/[dim1]:8192",
+      "run_type": "iteration",
+      "iterations": 177,
+      "real_time": 3.9631032653279225e+06,
+      "cpu_time": 3.9630272711863816e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/dim0:100/[dim1]:16384",
+      "run_type": "iteration",
+      "iterations": 89,
+      "real_time": 7.8321212923593735e+06,
+      "cpu_time": 7.8321201348316064e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/u32/k:5/dim0:100/[dim1]:32768",
+      "run_type": "iteration",
+      "iterations": 45,
+      "real_time": 1.5570096392184496e+07,
+      "cpu_time": 1.5570091622222688e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/dim0:100/[dim1]:1",
+      "run_type": "iteration",
+      "iterations": 7071,
+      "real_time": 9.8695501731504497e+04,
+      "cpu_time": 9.8695013718003800e+04,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/dim0:100/[dim1]:2",
+      "run_type": "iteration",
+      "iterations": 7095,
+      "real_time": 9.8301448227235174e+04,
+      "cpu_time": 9.8298388160673931e+04,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/dim0:100/[dim1]:4",
+      "run_type": "iteration",
+      "iterations": 7092,
+      "real_time": 9.8940638354645896e+04,
+      "cpu_time": 9.8938566835869366e+04,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/dim0:100/[dim1]:8",
+      "run_type": "iteration",
+      "iterations": 7075,
+      "real_time": 1.1309523504003619e+05,
+      "cpu_time": 1.1309089399293291e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/dim0:100/[dim1]:16",
+      "run_type": "iteration",
+      "iterations": 5991,
+      "real_time": 1.1843627914438123e+05,
+      "cpu_time": 1.1843552094809293e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/dim0:100/[dim1]:32",
+      "run_type": "iteration",
+      "iterations": 5654,
+      "real_time": 1.2211841793001478e+05,
+      "cpu_time": 1.2211838061549228e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/dim0:100/[dim1]:64",
+      "run_type": "iteration",
+      "iterations": 5475,
+      "real_time": 1.1872893131282776e+05,
+      "cpu_time": 1.1872697753424333e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/dim0:100/[dim1]:128",
+      "run_type": "iteration",
+      "iterations": 4588,
+      "real_time": 1.6779075932884694e+05,
+      "cpu_time": 1.6778973016564647e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/dim0:100/[dim1]:256",
+      "run_type": "iteration",
+      "iterations": 3057,
+      "real_time": 2.2778872645462811e+05,
+      "cpu_time": 2.2778109061171574e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/dim0:100/[dim1]:512",
+      "run_type": "iteration",
+      "iterations": 1977,
+      "real_time": 3.5507825085941324e+05,
+      "cpu_time": 3.5507598836621229e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/dim0:100/[dim1]:1024",
+      "run_type": "iteration",
+      "iterations": 1170,
+      "real_time": 5.9400932807634526e+05,
+      "cpu_time": 5.9399067094016820e+05,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/dim0:100/[dim1]:2048",
+      "run_type": "iteration",
+      "iterations": 645,
+      "real_time": 1.0876958973185960e+06,
+      "cpu_time": 1.0876659271317760e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/dim0:100/[dim1]:4096",
+      "run_type": "iteration",
+      "iterations": 339,
+      "real_time": 2.0593276555075757e+06,
+      "cpu_time": 2.0592554395280669e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/dim0:100/[dim1]:8192",
+      "run_type": "iteration",
+      "iterations": 175,
+      "real_time": 4.0121039375662804e+06,
+      "cpu_time": 4.0120693714285544e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/dim0:100/[dim1]:16384",
+      "run_type": "iteration",
+      "iterations": 88,
+      "real_time": 7.9084238386712968e+06,
+      "cpu_time": 7.9079551477269791e+06,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    },
+    {
+      "name": "topk/s32/k:5/dim0:100/[dim1]:32768",
+      "run_type": "iteration",
+      "iterations": 45,
+      "real_time": 1.5703913817803064e+07,
+      "cpu_time": 1.5703631311110811e+07,
+      "time_unit": "ns",
+      "alloc_buffers": 0.0000000000000000e+00,
+      "alloc_bytes": 0.0000000000000000e+00
+    }
+  ]
+}

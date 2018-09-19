@@ -1,0 +1,2273 @@
+{
+  "context": {
+    "date": "2018-09-12 19:34:12",
+    "executable": "./randu",
+    "num_cpus": 16,
+    "mhz_per_cpu": 2095,
+    "cpu_scaling_enabled": false,
+    "caches": [
+      {
+        "type": "Data",
+        "level": 1,
+        "size": 32000000,
+        "num_sharing": 1
+      },
+      {
+        "type": "Instruction",
+        "level": 1,
+        "size": 32000000,
+        "num_sharing": 1
+      },
+      {
+        "type": "Unified",
+        "level": 2,
+        "size": 4096000000,
+        "num_sharing": 1
+      }
+    ],
+    "library_build_type": "debug"
+  },
+  "benchmarks": [
+    {
+      "name": "randu1D/f32/elements:2",
+      "run_type": "iteration",
+      "iterations": 23195,
+      "real_time": 3.0209337816679879e+04,
+      "cpu_time": 3.0181796550980809e+04,
+      "time_unit": "ns",
+      "bytes": 2.6506043092852359e+05
+    },
+    {
+      "name": "randu1D/f32/elements:8",
+      "run_type": "iteration",
+      "iterations": 18252,
+      "real_time": 3.3435097151810849e+04,
+      "cpu_time": 3.3252171816787173e+04,
+      "time_unit": "ns",
+      "bytes": 9.6234315690155851e+05
+    },
+    {
+      "name": "randu1D/f32/elements:64",
+      "run_type": "iteration",
+      "iterations": 22790,
+      "real_time": 3.0930447071372233e+04,
+      "cpu_time": 3.0874106406318577e+04,
+      "time_unit": "ns",
+      "bytes": 8.2917379577213619e+06
+    },
+    {
+      "name": "randu1D/f32/elements:512",
+      "run_type": "iteration",
+      "iterations": 22701,
+      "real_time": 3.1031585088796666e+04,
+      "cpu_time": 3.0956967666622622e+04,
+      "time_unit": "ns",
+      "bytes": 6.6156350391131036e+07
+    },
+    {
+      "name": "randu1D/f32/elements:4096",
+      "run_type": "iteration",
+      "iterations": 22588,
+      "real_time": 3.5347383208269406e+04,
+      "cpu_time": 3.5284883389410308e+04,
+      "time_unit": "ns",
+      "bytes": 4.6433482064212132e+08
+    },
+    {
+      "name": "randu1D/f32/elements:32768",
+      "run_type": "iteration",
+      "iterations": 19171,
+      "real_time": 3.6945937101403586e+04,
+      "cpu_time": 3.6886474936101375e+04,
+      "time_unit": "ns",
+      "bytes": 3.5533891548882532e+09
+    },
+    {
+      "name": "randu1D/f32/elements:262144",
+      "run_type": "iteration",
+      "iterations": 14345,
+      "real_time": 4.7824481997538962e+04,
+      "cpu_time": 4.7565285325897588e+04,
+      "time_unit": "ns",
+      "bytes": 2.2044984967830898e+10
+    },
+    {
+      "name": "randu1D/f32/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 4686,
+      "real_time": 1.2693287644931204e+05,
+      "cpu_time": 1.2664900938967138e+05,
+      "time_unit": "ns",
+      "bytes": 6.6235085773076073e+10
+    },
+    {
+      "name": "randu1D/f32/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 1042,
+      "real_time": 7.2073128794797207e+05,
+      "cpu_time": 7.1935746928982669e+05,
+      "time_unit": "ns",
+      "bytes": 9.3290007909769913e+10
+    },
+    {
+      "name": "randu1D/f32/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 261,
+      "real_time": 2.8468237126467330e+06,
+      "cpu_time": 2.8398311302681975e+06,
+      "time_unit": "ns",
+      "bytes": 9.4525147336718079e+10
+    },
+    {
+      "name": "randu1D/c32/elements:2",
+      "run_type": "iteration",
+      "iterations": 24985,
+      "real_time": 2.7844733775723616e+04,
+      "cpu_time": 2.7791389273564135e+04,
+      "time_unit": "ns",
+      "bytes": 5.7571789026105287e+05
+    },
+    {
+      "name": "randu1D/c32/elements:8",
+      "run_type": "iteration",
+      "iterations": 24955,
+      "real_time": 2.7805671675802114e+04,
+      "cpu_time": 2.7759425485874617e+04,
+      "time_unit": "ns",
+      "bytes": 2.3055232188636758e+06
+    },
+    {
+      "name": "randu1D/c32/elements:64",
+      "run_type": "iteration",
+      "iterations": 25297,
+      "real_time": 2.7789654984882323e+04,
+      "cpu_time": 2.7746869193975617e+04,
+      "time_unit": "ns",
+      "bytes": 1.8452532299073409e+07
+    },
+    {
+      "name": "randu1D/c32/elements:512",
+      "run_type": "iteration",
+      "iterations": 24962,
+      "real_time": 2.8031903935639475e+04,
+      "cpu_time": 2.7987013500520829e+04,
+      "time_unit": "ns",
+      "bytes": 1.4635359360239616e+08
+    },
+    {
+      "name": "randu1D/c32/elements:4096",
+      "run_type": "iteration",
+      "iterations": 25058,
+      "real_time": 3.0239907577479244e+04,
+      "cpu_time": 3.0195100486870469e+04,
+      "time_unit": "ns",
+      "bytes": 1.0852091720724125e+09
+    },
+    {
+      "name": "randu1D/c32/elements:32768",
+      "run_type": "iteration",
+      "iterations": 20475,
+      "real_time": 3.4494486583967642e+04,
+      "cpu_time": 3.4431870476190474e+04,
+      "time_unit": "ns",
+      "bytes": 7.6134115392096329e+09
+    },
+    {
+      "name": "randu1D/c32/elements:262144",
+      "run_type": "iteration",
+      "iterations": 12764,
+      "real_time": 5.4698700089076498e+04,
+      "cpu_time": 5.4610116342839356e+04,
+      "time_unit": "ns",
+      "bytes": 3.8402262079688553e+10
+    },
+    {
+      "name": "randu1D/c32/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 3373,
+      "real_time": 1.9764770145409016e+05,
+      "cpu_time": 1.9722933797806132e+05,
+      "time_unit": "ns",
+      "bytes": 8.5064504966630280e+10
+    },
+    {
+      "name": "randu1D/c32/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 514,
+      "real_time": 1.4290300248632866e+06,
+      "cpu_time": 1.4260478443579799e+06,
+      "time_unit": "ns",
+      "bytes": 9.4118671074760529e+10
+    },
+    {
+      "name": "randu1D/c32/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 127,
+      "real_time": 5.5512615596860880e+06,
+      "cpu_time": 5.5409650000000242e+06,
+      "time_unit": "ns",
+      "bytes": 9.6891229596288300e+10
+    },
+    {
+      "name": "randu1D/f64/elements:2",
+      "run_type": "iteration",
+      "iterations": 20091,
+      "real_time": 3.3539241099814775e+04,
+      "cpu_time": 3.3503031158230115e+04,
+      "time_unit": "ns",
+      "bytes": 4.7756872876469733e+05
+    },
+    {
+      "name": "randu1D/f64/elements:8",
+      "run_type": "iteration",
+      "iterations": 21197,
+      "real_time": 3.2265048785847008e+04,
+      "cpu_time": 3.2242996461763436e+04,
+      "time_unit": "ns",
+      "bytes": 1.9849271787098574e+06
+    },
+    {
+      "name": "randu1D/f64/elements:64",
+      "run_type": "iteration",
+      "iterations": 22220,
+      "real_time": 3.2285393637367779e+04,
+      "cpu_time": 3.2245788523852396e+04,
+      "time_unit": "ns",
+      "bytes": 1.5878042480532633e+07
+    },
+    {
+      "name": "randu1D/f64/elements:512",
+      "run_type": "iteration",
+      "iterations": 21805,
+      "real_time": 3.2274035992759873e+04,
+      "cpu_time": 3.2249550515936782e+04,
+      "time_unit": "ns",
+      "bytes": 1.2700952213197131e+08
+    },
+    {
+      "name": "randu1D/f64/elements:4096",
+      "run_type": "iteration",
+      "iterations": 21237,
+      "real_time": 3.2535540839440462e+04,
+      "cpu_time": 3.2502855582238513e+04,
+      "time_unit": "ns",
+      "bytes": 1.0081575730197188e+09
+    },
+    {
+      "name": "randu1D/f64/elements:32768",
+      "run_type": "iteration",
+      "iterations": 20210,
+      "real_time": 3.4886257117452864e+04,
+      "cpu_time": 3.4846911528946097e+04,
+      "time_unit": "ns",
+      "bytes": 7.5227326755269632e+09
+    },
+    {
+      "name": "randu1D/f64/elements:262144",
+      "run_type": "iteration",
+      "iterations": 13813,
+      "real_time": 4.9945099181789912e+04,
+      "cpu_time": 4.9887130239629267e+04,
+      "time_unit": "ns",
+      "bytes": 4.2037936235788277e+10
+    },
+    {
+      "name": "randu1D/f64/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 3984,
+      "real_time": 1.9557683552843501e+05,
+      "cpu_time": 1.9524425000000020e+05,
+      "time_unit": "ns",
+      "bytes": 8.5929373080129028e+10
+    },
+    {
+      "name": "randu1D/f64/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 560,
+      "real_time": 1.3448958343360573e+06,
+      "cpu_time": 1.3419596142857149e+06,
+      "time_unit": "ns",
+      "bytes": 1.0001621998992876e+11
+    },
+    {
+      "name": "randu1D/f64/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 100,
+      "real_time": 5.0891302293166518e+06,
+      "cpu_time": 5.0794636099999836e+06,
+      "time_unit": "ns",
+      "bytes": 1.0569441051670448e+11
+    },
+    {
+      "name": "randu1D/c64/elements:2",
+      "run_type": "iteration",
+      "iterations": 17983,
+      "real_time": 3.9169265010444338e+04,
+      "cpu_time": 3.9073310404270494e+04,
+      "time_unit": "ns",
+      "bytes": 8.1897335211460805e+05
+    },
+    {
+      "name": "randu1D/c64/elements:8",
+      "run_type": "iteration",
+      "iterations": 18108,
+      "real_time": 3.9163146108127214e+04,
+      "cpu_time": 3.9085946874309695e+04,
+      "time_unit": "ns",
+      "bytes": 3.2748343135095309e+06
+    },
+    {
+      "name": "randu1D/c64/elements:64",
+      "run_type": "iteration",
+      "iterations": 18333,
+      "real_time": 3.8322503695010761e+04,
+      "cpu_time": 3.8224701903670626e+04,
+      "time_unit": "ns",
+      "bytes": 2.6788959730295967e+07
+    },
+    {
+      "name": "randu1D/c64/elements:512",
+      "run_type": "iteration",
+      "iterations": 18123,
+      "real_time": 3.7828985325601963e+04,
+      "cpu_time": 3.7751687193069309e+04,
+      "time_unit": "ns",
+      "bytes": 2.1699692408724818e+08
+    },
+    {
+      "name": "randu1D/c64/elements:4096",
+      "run_type": "iteration",
+      "iterations": 17781,
+      "real_time": 3.8690480013547618e+04,
+      "cpu_time": 3.8592551937461692e+04,
+      "time_unit": "ns",
+      "bytes": 1.6981515009994552e+09
+    },
+    {
+      "name": "randu1D/c64/elements:32768",
+      "run_type": "iteration",
+      "iterations": 15941,
+      "real_time": 4.5258849005092008e+04,
+      "cpu_time": 4.5184558873345457e+04,
+      "time_unit": "ns",
+      "bytes": 1.1603255914694336e+10
+    },
+    {
+      "name": "randu1D/c64/elements:262144",
+      "run_type": "iteration",
+      "iterations": 8486,
+      "real_time": 8.3232785445808549e+04,
+      "cpu_time": 8.3017250294602534e+04,
+      "time_unit": "ns",
+      "bytes": 5.0523282632413292e+10
+    },
+    {
+      "name": "randu1D/c64/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 2008,
+      "real_time": 3.5623635515103122e+05,
+      "cpu_time": 3.5528142231075821e+05,
+      "time_unit": "ns",
+      "bytes": 9.4444656806880692e+10
+    },
+    {
+      "name": "randu1D/c64/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 278,
+      "real_time": 2.6494657600687132e+06,
+      "cpu_time": 2.6449272589928131e+06,
+      "time_unit": "ns",
+      "bytes": 1.0149067619433136e+11
+    },
+    {
+      "name": "randu1D/c64/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 74,
+      "real_time": 1.0387040511075709e+07,
+      "cpu_time": 1.0316980878378380e+07,
+      "time_unit": "ns",
+      "bytes": 1.0407519764336041e+11
+    },
+    {
+      "name": "randu1D/b8/elements:2",
+      "run_type": "iteration",
+      "iterations": 22060,
+      "real_time": 3.2483691713542205e+04,
+      "cpu_time": 3.2418241069809686e+04,
+      "time_unit": "ns",
+      "bytes": 6.1693661778046036e+04
+    },
+    {
+      "name": "randu1D/b8/elements:8",
+      "run_type": "iteration",
+      "iterations": 22341,
+      "real_time": 3.1594807652851701e+04,
+      "cpu_time": 3.1517083971174041e+04,
+      "time_unit": "ns",
+      "bytes": 2.5383058938183845e+05
+    },
+    {
+      "name": "randu1D/b8/elements:64",
+      "run_type": "iteration",
+      "iterations": 21730,
+      "real_time": 3.2929074361207189e+04,
+      "cpu_time": 3.2855404049701028e+04,
+      "time_unit": "ns",
+      "bytes": 1.9479291718094812e+06
+    },
+    {
+      "name": "randu1D/b8/elements:512",
+      "run_type": "iteration",
+      "iterations": 21145,
+      "real_time": 3.2943680104626692e+04,
+      "cpu_time": 3.2893272925041514e+04,
+      "time_unit": "ns",
+      "bytes": 1.5565492712347770e+07
+    },
+    {
+      "name": "randu1D/b8/elements:4096",
+      "run_type": "iteration",
+      "iterations": 21198,
+      "real_time": 3.2964670015403215e+04,
+      "cpu_time": 3.2855768280026510e+04,
+      "time_unit": "ns",
+      "bytes": 1.2466608496536104e+08
+    },
+    {
+      "name": "randu1D/b8/elements:32768",
+      "run_type": "iteration",
+      "iterations": 20168,
+      "real_time": 3.5302834939034285e+04,
+      "cpu_time": 3.5240385710035735e+04,
+      "time_unit": "ns",
+      "bytes": 9.2984226306774938e+08
+    },
+    {
+      "name": "randu1D/b8/elements:262144",
+      "run_type": "iteration",
+      "iterations": 18053,
+      "real_time": 3.8794302822912541e+04,
+      "cpu_time": 3.8711903063202866e+04,
+      "time_unit": "ns",
+      "bytes": 6.7716639910988474e+09
+    },
+    {
+      "name": "randu1D/b8/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 9983,
+      "real_time": 7.0560262313195271e+04,
+      "cpu_time": 7.0435657617950448e+04,
+      "time_unit": "ns",
+      "bytes": 2.9774010365249195e+10
+    },
+    {
+      "name": "randu1D/b8/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 2482,
+      "real_time": 2.3449530095570421e+05,
+      "cpu_time": 2.3396824335213518e+05,
+      "time_unit": "ns",
+      "bytes": 7.1707235818107849e+10
+    },
+    {
+      "name": "randu1D/b8/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 839,
+      "real_time": 8.5180912542027002e+05,
+      "cpu_time": 8.5017814302741585e+05,
+      "time_unit": "ns",
+      "bytes": 7.8935061493148651e+10
+    },
+    {
+      "name": "randu1D/s32/elements:2",
+      "run_type": "iteration",
+      "iterations": 20124,
+      "real_time": 3.3408935908194835e+04,
+      "cpu_time": 3.3355491602067181e+04,
+      "time_unit": "ns",
+      "bytes": 2.3984056644826083e+05
+    },
+    {
+      "name": "randu1D/s32/elements:8",
+      "run_type": "iteration",
+      "iterations": 21550,
+      "real_time": 3.2300556515043132e+04,
+      "cpu_time": 3.2249833967517341e+04,
+      "time_unit": "ns",
+      "bytes": 9.9225317042658338e+05
+    },
+    {
+      "name": "randu1D/s32/elements:64",
+      "run_type": "iteration",
+      "iterations": 21701,
+      "real_time": 3.4508458095128939e+04,
+      "cpu_time": 3.4456637989032541e+04,
+      "time_unit": "ns",
+      "bytes": 7.4296279306612611e+06
+    },
+    {
+      "name": "randu1D/s32/elements:512",
+      "run_type": "iteration",
+      "iterations": 20246,
+      "real_time": 3.3051708207538293e+04,
+      "cpu_time": 3.2993742072508016e+04,
+      "time_unit": "ns",
+      "bytes": 6.2072377104096144e+07
+    },
+    {
+      "name": "randu1D/s32/elements:4096",
+      "run_type": "iteration",
+      "iterations": 22465,
+      "real_time": 3.1192687827403101e+04,
+      "cpu_time": 3.1138171199643730e+04,
+      "time_unit": "ns",
+      "bytes": 5.2617091398699290e+08
+    },
+    {
+      "name": "randu1D/s32/elements:32768",
+      "run_type": "iteration",
+      "iterations": 21734,
+      "real_time": 3.3235383403676133e+04,
+      "cpu_time": 3.3158222186436047e+04,
+      "time_unit": "ns",
+      "bytes": 3.9529260423864732e+09
+    },
+    {
+      "name": "randu1D/s32/elements:262144",
+      "run_type": "iteration",
+      "iterations": 17217,
+      "real_time": 4.2336799373985785e+04,
+      "cpu_time": 4.2273013881628583e+04,
+      "time_unit": "ns",
+      "bytes": 2.4804855479105087e+10
+    },
+    {
+      "name": "randu1D/s32/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 6067,
+      "real_time": 1.0801912077386513e+05,
+      "cpu_time": 1.0776557969342334e+05,
+      "time_unit": "ns",
+      "bytes": 7.7841255286375397e+10
+    },
+    {
+      "name": "randu1D/s32/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 1133,
+      "real_time": 6.7945802748689905e+05,
+      "cpu_time": 6.7823719329214259e+05,
+      "time_unit": "ns",
+      "bytes": 9.8946009838026764e+10
+    },
+    {
+      "name": "randu1D/s32/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 282,
+      "real_time": 2.6336379154380541e+06,
+      "cpu_time": 2.6279515212765997e+06,
+      "time_unit": "ns",
+      "bytes": 1.0214627394252696e+11
+    },
+    {
+      "name": "randu1D/u32/elements:2",
+      "run_type": "iteration",
+      "iterations": 22027,
+      "real_time": 3.1892702501139844e+04,
+      "cpu_time": 3.1821693285513527e+04,
+      "time_unit": "ns",
+      "bytes": 2.5140082673230689e+05
+    },
+    {
+      "name": "randu1D/u32/elements:8",
+      "run_type": "iteration",
+      "iterations": 23289,
+      "real_time": 3.0179289246190023e+04,
+      "cpu_time": 3.0105130705483327e+04,
+      "time_unit": "ns",
+      "bytes": 1.0629417395012851e+06
+    },
+    {
+      "name": "randu1D/u32/elements:64",
+      "run_type": "iteration",
+      "iterations": 23320,
+      "real_time": 3.0013305270057139e+04,
+      "cpu_time": 2.9955903516294708e+04,
+      "time_unit": "ns",
+      "bytes": 8.5458947970221341e+06
+    },
+    {
+      "name": "randu1D/u32/elements:512",
+      "run_type": "iteration",
+      "iterations": 23336,
+      "real_time": 3.0062012245095080e+04,
+      "cpu_time": 3.0016560293109840e+04,
+      "time_unit": "ns",
+      "bytes": 6.8229003590065211e+07
+    },
+    {
+      "name": "randu1D/u32/elements:4096",
+      "run_type": "iteration",
+      "iterations": 23234,
+      "real_time": 3.0151493976442140e+04,
+      "cpu_time": 3.0105478565895188e+04,
+      "time_unit": "ns",
+      "bytes": 5.4421988224297869e+08
+    },
+    {
+      "name": "randu1D/u32/elements:32768",
+      "run_type": "iteration",
+      "iterations": 22741,
+      "real_time": 3.0918674546202874e+04,
+      "cpu_time": 3.0870563343740458e+04,
+      "time_unit": "ns",
+      "bytes": 4.2458570820534477e+09
+    },
+    {
+      "name": "randu1D/u32/elements:262144",
+      "run_type": "iteration",
+      "iterations": 17549,
+      "real_time": 3.9853260001315510e+04,
+      "cpu_time": 3.9793226964499969e+04,
+      "time_unit": "ns",
+      "bytes": 2.6350614915835995e+10
+    },
+    {
+      "name": "randu1D/u32/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 6252,
+      "real_time": 1.0295195972173929e+05,
+      "cpu_time": 1.0275532405630242e+05,
+      "time_unit": "ns",
+      "bytes": 8.1636723712765045e+10
+    },
+    {
+      "name": "randu1D/u32/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 1141,
+      "real_time": 6.8060829166215204e+05,
+      "cpu_time": 6.7914271078001871e+05,
+      "time_unit": "ns",
+      "bytes": 9.8814082717494202e+10
+    },
+    {
+      "name": "randu1D/u32/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 283,
+      "real_time": 2.6235413102452829e+06,
+      "cpu_time": 2.6183901766784308e+06,
+      "time_unit": "ns",
+      "bytes": 1.0251927248693121e+11
+    },
+    {
+      "name": "randu1D/u8/elements:2",
+      "run_type": "iteration",
+      "iterations": 23738,
+      "real_time": 2.9291747992721601e+04,
+      "cpu_time": 2.9240486266745454e+04,
+      "time_unit": "ns",
+      "bytes": 6.8398315327421733e+04
+    },
+    {
+      "name": "randu1D/u8/elements:8",
+      "run_type": "iteration",
+      "iterations": 23861,
+      "real_time": 2.9394019404168223e+04,
+      "cpu_time": 2.9332782574074656e+04,
+      "time_unit": "ns",
+      "bytes": 2.7273239351900696e+05
+    },
+    {
+      "name": "randu1D/u8/elements:64",
+      "run_type": "iteration",
+      "iterations": 23123,
+      "real_time": 3.1092828284256786e+04,
+      "cpu_time": 3.1044288933096916e+04,
+      "time_unit": "ns",
+      "bytes": 2.0615708138113727e+06
+    },
+    {
+      "name": "randu1D/u8/elements:512",
+      "run_type": "iteration",
+      "iterations": 22952,
+      "real_time": 3.0511548590407154e+04,
+      "cpu_time": 3.0457838271174969e+04,
+      "time_unit": "ns",
+      "bytes": 1.6810122748749126e+07
+    },
+    {
+      "name": "randu1D/u8/elements:4096",
+      "run_type": "iteration",
+      "iterations": 22355,
+      "real_time": 3.1599436818493530e+04,
+      "cpu_time": 3.1548212927756933e+04,
+      "time_unit": "ns",
+      "bytes": 1.2983302760696895e+08
+    },
+    {
+      "name": "randu1D/u8/elements:32768",
+      "run_type": "iteration",
+      "iterations": 22170,
+      "real_time": 3.1086951695856449e+04,
+      "cpu_time": 3.1036771853856193e+04,
+      "time_unit": "ns",
+      "bytes": 1.0557799037314737e+09
+    },
+    {
+      "name": "randu1D/u8/elements:262144",
+      "run_type": "iteration",
+      "iterations": 21688,
+      "real_time": 3.2120200742499190e+04,
+      "cpu_time": 3.2054626014385496e+04,
+      "time_unit": "ns",
+      "bytes": 8.1780395716473141e+09
+    },
+    {
+      "name": "randu1D/u8/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 12531,
+      "real_time": 5.5868445717463634e+04,
+      "cpu_time": 5.5776634346820269e+04,
+      "time_unit": "ns",
+      "bytes": 3.7599113402215439e+10
+    },
+    {
+      "name": "randu1D/u8/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 3042,
+      "real_time": 2.3684948823616194e+05,
+      "cpu_time": 2.3645479355687273e+05,
+      "time_unit": "ns",
+      "bytes": 7.0953165074933029e+10
+    },
+    {
+      "name": "randu1D/u8/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 815,
+      "real_time": 8.8601912960318697e+05,
+      "cpu_time": 8.8446765030674916e+05,
+      "time_unit": "ns",
+      "bytes": 7.5874865493074234e+10
+    },
+    {
+      "name": "randu1D/s64/elements:2",
+      "run_type": "iteration",
+      "iterations": 23587,
+      "real_time": 2.9693325703447415e+04,
+      "cpu_time": 2.9627933565099425e+04,
+      "time_unit": "ns",
+      "bytes": 5.4003091254556447e+05
+    },
+    {
+      "name": "randu1D/s64/elements:8",
+      "run_type": "iteration",
+      "iterations": 23592,
+      "real_time": 2.9816548071584384e+04,
+      "cpu_time": 2.9756651322481910e+04,
+      "time_unit": "ns",
+      "bytes": 2.1507796460835757e+06
+    },
+    {
+      "name": "randu1D/s64/elements:64",
+      "run_type": "iteration",
+      "iterations": 23532,
+      "real_time": 2.9744054095038504e+04,
+      "cpu_time": 2.9700181242563343e+04,
+      "time_unit": "ns",
+      "bytes": 1.7238952039331418e+07
+    },
+    {
+      "name": "randu1D/s64/elements:512",
+      "run_type": "iteration",
+      "iterations": 23583,
+      "real_time": 3.0403549378975622e+04,
+      "cpu_time": 3.0360343806979388e+04,
+      "time_unit": "ns",
+      "bytes": 1.3491283320244849e+08
+    },
+    {
+      "name": "randu1D/s64/elements:4096",
+      "run_type": "iteration",
+      "iterations": 23302,
+      "real_time": 2.9807441244634854e+04,
+      "cpu_time": 2.9759567848253231e+04,
+      "time_unit": "ns",
+      "bytes": 1.1010912580144658e+09
+    },
+    {
+      "name": "randu1D/s64/elements:32768",
+      "run_type": "iteration",
+      "iterations": 22162,
+      "real_time": 3.1607421429375805e+04,
+      "cpu_time": 3.1550530908762725e+04,
+      "time_unit": "ns",
+      "bytes": 8.3087032911764135e+09
+    },
+    {
+      "name": "randu1D/s64/elements:262144",
+      "run_type": "iteration",
+      "iterations": 14033,
+      "real_time": 4.9913254976835371e+04,
+      "cpu_time": 4.9822039549633082e+04,
+      "time_unit": "ns",
+      "bytes": 4.2092857276764069e+10
+    },
+    {
+      "name": "randu1D/s64/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 3805,
+      "real_time": 1.7473942021326543e+05,
+      "cpu_time": 1.7435466333771244e+05,
+      "time_unit": "ns",
+      "bytes": 9.6224647387284042e+10
+    },
+    {
+      "name": "randu1D/s64/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 589,
+      "real_time": 1.2556939150233625e+06,
+      "cpu_time": 1.2533729592529761e+06,
+      "time_unit": "ns",
+      "bytes": 1.0708522711387935e+11
+    },
+    {
+      "name": "randu1D/s64/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 148,
+      "real_time": 4.9144240989777688e+06,
+      "cpu_time": 4.9069957094594175e+06,
+      "time_unit": "ns",
+      "bytes": 1.0940928906154369e+11
+    },
+    {
+      "name": "randu1D/u64/elements:2",
+      "run_type": "iteration",
+      "iterations": 22847,
+      "real_time": 2.9737173587419056e+04,
+      "cpu_time": 2.9680409681795973e+04,
+      "time_unit": "ns",
+      "bytes": 5.3907611692480627e+05
+    },
+    {
+      "name": "randu1D/u64/elements:8",
+      "run_type": "iteration",
+      "iterations": 23595,
+      "real_time": 3.1838340269929398e+04,
+      "cpu_time": 3.1771650815850615e+04,
+      "time_unit": "ns",
+      "bytes": 2.0143743984518086e+06
+    },
+    {
+      "name": "randu1D/u64/elements:64",
+      "run_type": "iteration",
+      "iterations": 21198,
+      "real_time": 3.4345590825538748e+04,
+      "cpu_time": 3.4284785781677463e+04,
+      "time_unit": "ns",
+      "bytes": 1.4933737759377340e+07
+    },
+    {
+      "name": "randu1D/u64/elements:512",
+      "run_type": "iteration",
+      "iterations": 20905,
+      "real_time": 3.3318572333521377e+04,
+      "cpu_time": 3.3265296914613515e+04,
+      "time_unit": "ns",
+      "bytes": 1.2313132242630363e+08
+    },
+    {
+      "name": "randu1D/u64/elements:4096",
+      "run_type": "iteration",
+      "iterations": 21066,
+      "real_time": 3.3638349796228802e+04,
+      "cpu_time": 3.3589585778030989e+04,
+      "time_unit": "ns",
+      "bytes": 9.7554046115780509e+08
+    },
+    {
+      "name": "randu1D/u64/elements:32768",
+      "run_type": "iteration",
+      "iterations": 19018,
+      "real_time": 3.7357220931578253e+04,
+      "cpu_time": 3.7296514512566995e+04,
+      "time_unit": "ns",
+      "bytes": 7.0286460658856211e+09
+    },
+    {
+      "name": "randu1D/u64/elements:262144",
+      "run_type": "iteration",
+      "iterations": 11694,
+      "real_time": 5.8558783302001102e+04,
+      "cpu_time": 5.8464666581153047e+04,
+      "time_unit": "ns",
+      "bytes": 3.5870417512584404e+10
+    },
+    {
+      "name": "randu1D/u64/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 3361,
+      "real_time": 1.7730450940425642e+05,
+      "cpu_time": 1.7687742636120241e+05,
+      "time_unit": "ns",
+      "bytes": 9.4852216843878937e+10
+    },
+    {
+      "name": "randu1D/u64/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 607,
+      "real_time": 1.2574074022729667e+06,
+      "cpu_time": 1.2553371680395408e+06,
+      "time_unit": "ns",
+      "bytes": 1.0691767233308940e+11
+    },
+    {
+      "name": "randu1D/u64/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 148,
+      "real_time": 4.9395271532891970e+06,
+      "cpu_time": 4.9310266689188872e+06,
+      "time_unit": "ns",
+      "bytes": 1.0887609174454277e+11
+    },
+    {
+      "name": "randu1D/s16/elements:2",
+      "run_type": "iteration",
+      "iterations": 22177,
+      "real_time": 3.3390882546837631e+04,
+      "cpu_time": 3.3296290932046628e+04,
+      "time_unit": "ns",
+      "bytes": 1.2013350100056118e+05
+    },
+    {
+      "name": "randu1D/s16/elements:8",
+      "run_type": "iteration",
+      "iterations": 21960,
+      "real_time": 3.0849513980324205e+04,
+      "cpu_time": 3.0792840801456798e+04,
+      "time_unit": "ns",
+      "bytes": 5.1960129639104434e+05
+    },
+    {
+      "name": "randu1D/s16/elements:64",
+      "run_type": "iteration",
+      "iterations": 22421,
+      "real_time": 3.0433499896421596e+04,
+      "cpu_time": 3.0328551179697151e+04,
+      "time_unit": "ns",
+      "bytes": 4.2204455874465602e+06
+    },
+    {
+      "name": "randu1D/s16/elements:512",
+      "run_type": "iteration",
+      "iterations": 23690,
+      "real_time": 2.9429706889128021e+04,
+      "cpu_time": 2.9375317982270906e+04,
+      "time_unit": "ns",
+      "bytes": 3.4859197119773209e+07
+    },
+    {
+      "name": "randu1D/s16/elements:4096",
+      "run_type": "iteration",
+      "iterations": 23627,
+      "real_time": 2.9675176378752469e+04,
+      "cpu_time": 2.9635297033055165e+04,
+      "time_unit": "ns",
+      "bytes": 2.7642712643853897e+08
+    },
+    {
+      "name": "randu1D/s16/elements:32768",
+      "run_type": "iteration",
+      "iterations": 23130,
+      "real_time": 3.0321048466360677e+04,
+      "cpu_time": 3.0277108041504853e+04,
+      "time_unit": "ns",
+      "bytes": 2.1645396221515307e+09
+    },
+    {
+      "name": "randu1D/s16/elements:262144",
+      "run_type": "iteration",
+      "iterations": 19824,
+      "real_time": 3.5333826212825807e+04,
+      "cpu_time": 3.5283702582728096e+04,
+      "time_unit": "ns",
+      "bytes": 1.4859211523244356e+10
+    },
+    {
+      "name": "randu1D/s16/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 8491,
+      "real_time": 7.4182354216949214e+04,
+      "cpu_time": 7.4026586267813022e+04,
+      "time_unit": "ns",
+      "bytes": 5.6659427530885559e+10
+    },
+    {
+      "name": "randu1D/s16/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 1753,
+      "real_time": 4.0650046528813773e+05,
+      "cpu_time": 4.0590058414147695e+05,
+      "time_unit": "ns",
+      "bytes": 8.2666626536079529e+10
+    },
+    {
+      "name": "randu1D/s16/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 467,
+      "real_time": 1.5750142348814572e+06,
+      "cpu_time": 1.5663350406852064e+06,
+      "time_unit": "ns",
+      "bytes": 8.5689028537141922e+10
+    },
+    {
+      "name": "randu1D/u16/elements:2",
+      "run_type": "iteration",
+      "iterations": 22593,
+      "real_time": 2.9492557771991662e+04,
+      "cpu_time": 2.9429794582392300e+04,
+      "time_unit": "ns",
+      "bytes": 1.3591668092692635e+05
+    },
+    {
+      "name": "randu1D/u16/elements:8",
+      "run_type": "iteration",
+      "iterations": 23733,
+      "real_time": 3.0364353134860856e+04,
+      "cpu_time": 3.0319852146800062e+04,
+      "time_unit": "ns",
+      "bytes": 5.2770705881191546e+05
+    },
+    {
+      "name": "randu1D/u16/elements:64",
+      "run_type": "iteration",
+      "iterations": 22697,
+      "real_time": 3.0860135838669732e+04,
+      "cpu_time": 3.0808865753182963e+04,
+      "time_unit": "ns",
+      "bytes": 4.1546482439645124e+06
+    },
+    {
+      "name": "randu1D/u16/elements:512",
+      "run_type": "iteration",
+      "iterations": 21899,
+      "real_time": 3.1492135390660398e+04,
+      "cpu_time": 3.1449361843006725e+04,
+      "time_unit": "ns",
+      "bytes": 3.2560279127816483e+07
+    },
+    {
+      "name": "randu1D/u16/elements:4096",
+      "run_type": "iteration",
+      "iterations": 22960,
+      "real_time": 2.9625987247904628e+04,
+      "cpu_time": 2.9582489982578056e+04,
+      "time_unit": "ns",
+      "bytes": 2.7692057040582097e+08
+    },
+    {
+      "name": "randu1D/u16/elements:32768",
+      "run_type": "iteration",
+      "iterations": 23218,
+      "real_time": 3.0020211858342594e+04,
+      "cpu_time": 2.9979330863985331e+04,
+      "time_unit": "ns",
+      "bytes": 2.1860394515585899e+09
+    },
+    {
+      "name": "randu1D/u16/elements:262144",
+      "run_type": "iteration",
+      "iterations": 20022,
+      "real_time": 3.5202124698143205e+04,
+      "cpu_time": 3.5121352162621297e+04,
+      "time_unit": "ns",
+      "bytes": 1.4927899061869991e+10
+    },
+    {
+      "name": "randu1D/u16/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 8909,
+      "real_time": 7.3668087219727648e+04,
+      "cpu_time": 7.3548016612414809e+04,
+      "time_unit": "ns",
+      "bytes": 5.7028104810810181e+10
+    },
+    {
+      "name": "randu1D/u16/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 1755,
+      "real_time": 4.1100209966259467e+05,
+      "cpu_time": 4.1027223817663942e+05,
+      "time_unit": "ns",
+      "bytes": 8.1785772659454010e+10
+    },
+    {
+      "name": "randu1D/u16/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 472,
+      "real_time": 1.5718878179757020e+06,
+      "cpu_time": 1.5699793792372865e+06,
+      "time_unit": "ns",
+      "bytes": 8.5490121574211029e+10
+    },
+    {
+      "name": "randu2D/f32/elements:2",
+      "run_type": "iteration",
+      "iterations": 24029,
+      "real_time": 2.9111941362050911e+04,
+      "cpu_time": 2.9060031461982926e+04,
+      "time_unit": "ns",
+      "bytes": 1.3764610011633683e+05
+    },
+    {
+      "name": "randu2D/f32/elements:8",
+      "run_type": "iteration",
+      "iterations": 23319,
+      "real_time": 3.3448532061072481e+04,
+      "cpu_time": 3.3380789184785339e+04,
+      "time_unit": "ns",
+      "bytes": 4.7931760724496760e+05
+    },
+    {
+      "name": "randu2D/f32/elements:64",
+      "run_type": "iteration",
+      "iterations": 20960,
+      "real_time": 3.3318563826552781e+04,
+      "cpu_time": 3.3257793940840238e+04,
+      "time_unit": "ns",
+      "bytes": 7.6974438068676163e+06
+    },
+    {
+      "name": "randu2D/f32/elements:512",
+      "run_type": "iteration",
+      "iterations": 20763,
+      "real_time": 3.3687610298141102e+04,
+      "cpu_time": 3.3623119876702585e+04,
+      "time_unit": "ns",
+      "bytes": 5.7579427700326279e+07
+    },
+    {
+      "name": "randu2D/f32/elements:4096",
+      "run_type": "iteration",
+      "iterations": 22021,
+      "real_time": 3.1827663449844338e+04,
+      "cpu_time": 3.1782759683938530e+04,
+      "time_unit": "ns",
+      "bytes": 5.1549960302156144e+08
+    },
+    {
+      "name": "randu2D/f32/elements:32768",
+      "run_type": "iteration",
+      "iterations": 20458,
+      "real_time": 3.4471178274014987e+04,
+      "cpu_time": 3.4417396861863810e+04,
+      "time_unit": "ns",
+      "bytes": 3.8074930688672533e+09
+    },
+    {
+      "name": "randu2D/f32/elements:262144",
+      "run_type": "iteration",
+      "iterations": 15644,
+      "real_time": 4.5284225656149698e+04,
+      "cpu_time": 4.5194041102019954e+04,
+      "time_unit": "ns",
+      "bytes": 2.3201642836783936e+10
+    },
+    {
+      "name": "randu2D/f32/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 5633,
+      "real_time": 1.1504029150150840e+05,
+      "cpu_time": 1.1483198189241999e+05,
+      "time_unit": "ns",
+      "bytes": 7.3035541682605164e+10
+    },
+    {
+      "name": "randu2D/f32/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 1037,
+      "real_time": 7.3406075216334034e+05,
+      "cpu_time": 7.3263119093539508e+05,
+      "time_unit": "ns",
+      "bytes": 9.1599791041271393e+10
+    },
+    {
+      "name": "randu2D/f32/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 257,
+      "real_time": 2.8714942727745273e+06,
+      "cpu_time": 2.8645515758755892e+06,
+      "time_unit": "ns",
+      "bytes": 9.3709416252332291e+10
+    },
+    {
+      "name": "randu2D/c32/elements:2",
+      "run_type": "iteration",
+      "iterations": 23266,
+      "real_time": 3.0676930035435405e+04,
+      "cpu_time": 3.0617033009541450e+04,
+      "time_unit": "ns",
+      "bytes": 2.6129246414918423e+05
+    },
+    {
+      "name": "randu2D/c32/elements:8",
+      "run_type": "iteration",
+      "iterations": 21899,
+      "real_time": 3.1281754792470128e+04,
+      "cpu_time": 3.1231203707932626e+04,
+      "time_unit": "ns",
+      "bytes": 1.0246162875839494e+06
+    },
+    {
+      "name": "randu2D/c32/elements:64",
+      "run_type": "iteration",
+      "iterations": 22015,
+      "real_time": 3.2060986497701095e+04,
+      "cpu_time": 3.2002705746081465e+04,
+      "time_unit": "ns",
+      "bytes": 1.5998647241341187e+07
+    },
+    {
+      "name": "randu2D/c32/elements:512",
+      "run_type": "iteration",
+      "iterations": 22521,
+      "real_time": 2.9921446964564857e+04,
+      "cpu_time": 2.9858238754939961e+04,
+      "time_unit": "ns",
+      "bytes": 1.2967945067956792e+08
+    },
+    {
+      "name": "randu2D/c32/elements:4096",
+      "run_type": "iteration",
+      "iterations": 24968,
+      "real_time": 2.8055509719018875e+04,
+      "cpu_time": 2.8000299062801299e+04,
+      "time_unit": "ns",
+      "bytes": 1.1702732148147888e+09
+    },
+    {
+      "name": "randu2D/c32/elements:32768",
+      "run_type": "iteration",
+      "iterations": 22024,
+      "real_time": 3.0684548354366998e+04,
+      "cpu_time": 3.0620246640029556e+04,
+      "time_unit": "ns",
+      "bytes": 8.5593040147944098e+09
+    },
+    {
+      "name": "randu2D/c32/elements:262144",
+      "run_type": "iteration",
+      "iterations": 13729,
+      "real_time": 5.0918481693456502e+04,
+      "cpu_time": 5.0837664724305076e+04,
+      "time_unit": "ns",
+      "bytes": 4.1251934198255348e+10
+    },
+    {
+      "name": "randu2D/c32/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 3468,
+      "real_time": 1.9654499825021421e+05,
+      "cpu_time": 1.9619783419838810e+05,
+      "time_unit": "ns",
+      "bytes": 8.5493461579392944e+10
+    },
+    {
+      "name": "randu2D/c32/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 514,
+      "real_time": 1.4408061784558026e+06,
+      "cpu_time": 1.4382128852140270e+06,
+      "time_unit": "ns",
+      "bytes": 9.3322573716217560e+10
+    },
+    {
+      "name": "randu2D/c32/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 124,
+      "real_time": 5.5855560724833803e+06,
+      "cpu_time": 5.5714500887096431e+06,
+      "time_unit": "ns",
+      "bytes": 9.6361073589791443e+10
+    },
+    {
+      "name": "randu2D/f64/elements:2",
+      "run_type": "iteration",
+      "iterations": 24603,
+      "real_time": 2.8502081470471720e+04,
+      "cpu_time": 2.8439914685200292e+04,
+      "time_unit": "ns",
+      "bytes": 2.8129479601298098e+05
+    },
+    {
+      "name": "randu2D/f64/elements:8",
+      "run_type": "iteration",
+      "iterations": 24617,
+      "real_time": 2.8501311379509840e+04,
+      "cpu_time": 2.8446657716212070e+04,
+      "time_unit": "ns",
+      "bytes": 1.1249124701831962e+06
+    },
+    {
+      "name": "randu2D/f64/elements:64",
+      "run_type": "iteration",
+      "iterations": 24467,
+      "real_time": 2.9635283934304851e+04,
+      "cpu_time": 2.9582603588507605e+04,
+      "time_unit": "ns",
+      "bytes": 1.7307469184318323e+07
+    },
+    {
+      "name": "randu2D/f64/elements:512",
+      "run_type": "iteration",
+      "iterations": 22690,
+      "real_time": 3.0934766063006136e+04,
+      "cpu_time": 3.0889793565447133e+04,
+      "time_unit": "ns",
+      "bytes": 1.2534884675730440e+08
+    },
+    {
+      "name": "randu2D/f64/elements:4096",
+      "run_type": "iteration",
+      "iterations": 22668,
+      "real_time": 3.0857867403348664e+04,
+      "cpu_time": 3.0813261690488944e+04,
+      "time_unit": "ns",
+      "bytes": 1.0634382146604891e+09
+    },
+    {
+      "name": "randu2D/f64/elements:32768",
+      "run_type": "iteration",
+      "iterations": 21036,
+      "real_time": 3.3396046416011231e+04,
+      "cpu_time": 3.3336690197757511e+04,
+      "time_unit": "ns",
+      "bytes": 7.8618482652375050e+09
+    },
+    {
+      "name": "randu2D/f64/elements:262144",
+      "run_type": "iteration",
+      "iterations": 12061,
+      "real_time": 5.8482729055122712e+04,
+      "cpu_time": 5.8367533703673784e+04,
+      "time_unit": "ns",
+      "bytes": 3.5930111603601997e+10
+    },
+    {
+      "name": "randu2D/f64/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 3222,
+      "real_time": 1.8647472645271127e+05,
+      "cpu_time": 1.8602958100558579e+05,
+      "time_unit": "ns",
+      "bytes": 9.0166477338334442e+10
+    },
+    {
+      "name": "randu2D/f64/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 556,
+      "real_time": 1.3508887177587843e+06,
+      "cpu_time": 1.3485799514388654e+06,
+      "time_unit": "ns",
+      "bytes": 9.9525228635348312e+10
+    },
+    {
+      "name": "randu2D/f64/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 139,
+      "real_time": 5.2266244193632826e+06,
+      "cpu_time": 5.2195154244603692e+06,
+      "time_unit": "ns",
+      "bytes": 1.0285838211801158e+11
+    },
+    {
+      "name": "randu2D/c64/elements:2",
+      "run_type": "iteration",
+      "iterations": 23835,
+      "real_time": 2.9377737056166214e+04,
+      "cpu_time": 2.9330924690580887e+04,
+      "time_unit": "ns",
+      "bytes": 5.4549933794409561e+05
+    },
+    {
+      "name": "randu2D/c64/elements:8",
+      "run_type": "iteration",
+      "iterations": 24253,
+      "real_time": 2.8085102127601607e+04,
+      "cpu_time": 2.8044135241000244e+04,
+      "time_unit": "ns",
+      "bytes": 2.2821170790259433e+06
+    },
+    {
+      "name": "randu2D/c64/elements:64",
+      "run_type": "iteration",
+      "iterations": 25069,
+      "real_time": 2.8716660726923496e+04,
+      "cpu_time": 2.8652117954445974e+04,
+      "time_unit": "ns",
+      "bytes": 3.5739068282074593e+07
+    },
+    {
+      "name": "randu2D/c64/elements:512",
+      "run_type": "iteration",
+      "iterations": 23931,
+      "real_time": 2.9436639285115980e+04,
+      "cpu_time": 2.9369586352430601e+04,
+      "time_unit": "ns",
+      "bytes": 2.6367412557579699e+08
+    },
+    {
+      "name": "randu2D/c64/elements:4096",
+      "run_type": "iteration",
+      "iterations": 23923,
+      "real_time": 2.8961018429059168e+04,
+      "cpu_time": 2.8909190653346122e+04,
+      "time_unit": "ns",
+      "bytes": 2.2669607318257618e+09
+    },
+    {
+      "name": "randu2D/c64/elements:32768",
+      "run_type": "iteration",
+      "iterations": 21567,
+      "real_time": 3.3370741315383973e+04,
+      "cpu_time": 3.3308676403765785e+04,
+      "time_unit": "ns",
+      "bytes": 1.5736920724377331e+10
+    },
+    {
+      "name": "randu2D/c64/elements:262144",
+      "run_type": "iteration",
+      "iterations": 10228,
+      "real_time": 7.1284306549937362e+04,
+      "cpu_time": 7.1172387856865083e+04,
+      "time_unit": "ns",
+      "bytes": 5.8931618374743484e+10
+    },
+    {
+      "name": "randu2D/c64/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 2095,
+      "real_time": 3.5599859249122388e+05,
+      "cpu_time": 3.5518429594271973e+05,
+      "time_unit": "ns",
+      "bytes": 9.4450301950878311e+10
+    },
+    {
+      "name": "randu2D/c64/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 277,
+      "real_time": 2.6720847534385612e+06,
+      "cpu_time": 2.6665776823103931e+06,
+      "time_unit": "ns",
+      "bytes": 1.0066665515906534e+11
+    },
+    {
+      "name": "randu2D/c64/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 73,
+      "real_time": 1.0443806424992133e+07,
+      "cpu_time": 1.0420621602739640e+07,
+      "time_unit": "ns",
+      "bytes": 1.0304009347366641e+11
+    },
+    {
+      "name": "randu2D/b8/elements:2",
+      "run_type": "iteration",
+      "iterations": 22014,
+      "real_time": 3.1144313711885905e+04,
+      "cpu_time": 3.1081123194330452e+04,
+      "time_unit": "ns",
+      "bytes": 3.2173869449557445e+04
+    },
+    {
+      "name": "randu2D/b8/elements:8",
+      "run_type": "iteration",
+      "iterations": 22533,
+      "real_time": 3.0800354015747558e+04,
+      "cpu_time": 3.0691231527092856e+04,
+      "time_unit": "ns",
+      "bytes": 1.3033038431413147e+05
+    },
+    {
+      "name": "randu2D/b8/elements:64",
+      "run_type": "iteration",
+      "iterations": 24203,
+      "real_time": 2.8782140853620189e+04,
+      "cpu_time": 2.8724661653514213e+04,
+      "time_unit": "ns",
+      "bytes": 2.2280506128144474e+06
+    },
+    {
+      "name": "randu2D/b8/elements:512",
+      "run_type": "iteration",
+      "iterations": 24507,
+      "real_time": 2.8681056826702359e+04,
+      "cpu_time": 2.8622315501693462e+04,
+      "time_unit": "ns",
+      "bytes": 1.6909882779098138e+07
+    },
+    {
+      "name": "randu2D/b8/elements:4096",
+      "run_type": "iteration",
+      "iterations": 24407,
+      "real_time": 2.8809034217689488e+04,
+      "cpu_time": 2.8752156389560449e+04,
+      "time_unit": "ns",
+      "bytes": 1.4245888010984826e+08
+    },
+    {
+      "name": "randu2D/b8/elements:32768",
+      "run_type": "iteration",
+      "iterations": 24255,
+      "real_time": 3.0076616046091276e+04,
+      "cpu_time": 3.0016227375798913e+04,
+      "time_unit": "ns",
+      "bytes": 1.0914429581651592e+09
+    },
+    {
+      "name": "randu2D/b8/elements:262144",
+      "run_type": "iteration",
+      "iterations": 22458,
+      "real_time": 3.1093227745803724e+04,
+      "cpu_time": 3.1054701843441646e+04,
+      "time_unit": "ns",
+      "bytes": 8.4413626420104055e+09
+    },
+    {
+      "name": "randu2D/b8/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 13008,
+      "real_time": 5.3955569017339418e+04,
+      "cpu_time": 5.3868962638375568e+04,
+      "time_unit": "ns",
+      "bytes": 3.8922301401555756e+10
+    },
+    {
+      "name": "randu2D/b8/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 3234,
+      "real_time": 2.2903903405917561e+05,
+      "cpu_time": 2.2861595980210605e+05,
+      "time_unit": "ns",
+      "bytes": 7.3386022631677383e+10
+    },
+    {
+      "name": "randu2D/b8/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 857,
+      "real_time": 8.4895197988912684e+05,
+      "cpu_time": 8.4727796032674413e+05,
+      "time_unit": "ns",
+      "bytes": 7.9205251573073074e+10
+    },
+    {
+      "name": "randu2D/s32/elements:2",
+      "run_type": "iteration",
+      "iterations": 23480,
+      "real_time": 2.9751148294606697e+04,
+      "cpu_time": 2.9696975681430849e+04,
+      "time_unit": "ns",
+      "bytes": 1.3469385040784307e+05
+    },
+    {
+      "name": "randu2D/s32/elements:8",
+      "run_type": "iteration",
+      "iterations": 23600,
+      "real_time": 3.0229749489512484e+04,
+      "cpu_time": 3.0176511991526415e+04,
+      "time_unit": "ns",
+      "bytes": 5.3021369747745572e+05
+    },
+    {
+      "name": "randu2D/s32/elements:64",
+      "run_type": "iteration",
+      "iterations": 20321,
+      "real_time": 3.4750528183721850e+04,
+      "cpu_time": 3.4687667142363825e+04,
+      "time_unit": "ns",
+      "bytes": 7.3801446188160870e+06
+    },
+    {
+      "name": "randu2D/s32/elements:512",
+      "run_type": "iteration",
+      "iterations": 20672,
+      "real_time": 3.3722335625700827e+04,
+      "cpu_time": 3.3652820191563907e+04,
+      "time_unit": "ns",
+      "bytes": 5.7528610944925115e+07
+    },
+    {
+      "name": "randu2D/s32/elements:4096",
+      "run_type": "iteration",
+      "iterations": 21786,
+      "real_time": 3.1691964092956565e+04,
+      "cpu_time": 3.1627637703111104e+04,
+      "time_unit": "ns",
+      "bytes": 5.1802793979736155e+08
+    },
+    {
+      "name": "randu2D/s32/elements:32768",
+      "run_type": "iteration",
+      "iterations": 21170,
+      "real_time": 3.3134407701254961e+04,
+      "cpu_time": 3.3066256258856250e+04,
+      "time_unit": "ns",
+      "bytes": 3.9630733813387790e+09
+    },
+    {
+      "name": "randu2D/s32/elements:262144",
+      "run_type": "iteration",
+      "iterations": 17262,
+      "real_time": 4.0031394443982186e+04,
+      "cpu_time": 3.9973082956784318e+04,
+      "time_unit": "ns",
+      "bytes": 2.6232052232089184e+10
+    },
+    {
+      "name": "randu2D/s32/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 6236,
+      "real_time": 1.0500469775494091e+05,
+      "cpu_time": 1.0478959348941392e+05,
+      "time_unit": "ns",
+      "bytes": 8.0034817587561829e+10
+    },
+    {
+      "name": "randu2D/s32/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 1127,
+      "real_time": 6.7773540921595204e+05,
+      "cpu_time": 6.7643251375332905e+05,
+      "time_unit": "ns",
+      "bytes": 9.9209991589009003e+10
+    },
+    {
+      "name": "randu2D/s32/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 286,
+      "real_time": 2.6592914392793928e+06,
+      "cpu_time": 2.6523890874125618e+06,
+      "time_unit": "ns",
+      "bytes": 1.0120515774775038e+11
+    },
+    {
+      "name": "randu2D/u32/elements:2",
+      "run_type": "iteration",
+      "iterations": 23262,
+      "real_time": 2.9948747499607547e+04,
+      "cpu_time": 2.9885907832516459e+04,
+      "time_unit": "ns",
+      "bytes": 1.3384234544308943e+05
+    },
+    {
+      "name": "randu2D/u32/elements:8",
+      "run_type": "iteration",
+      "iterations": 23373,
+      "real_time": 3.0040191628728378e+04,
+      "cpu_time": 2.9997479741582356e+04,
+      "time_unit": "ns",
+      "bytes": 5.3337814169171278e+05
+    },
+    {
+      "name": "randu2D/u32/elements:64",
+      "run_type": "iteration",
+      "iterations": 23270,
+      "real_time": 2.9962041987995504e+04,
+      "cpu_time": 2.9923470047270581e+04,
+      "time_unit": "ns",
+      "bytes": 8.5551575267037135e+06
+    },
+    {
+      "name": "randu2D/u32/elements:512",
+      "run_type": "iteration",
+      "iterations": 23271,
+      "real_time": 3.0177891532809295e+04,
+      "cpu_time": 3.0133167547591434e+04,
+      "time_unit": "ns",
+      "bytes": 6.4248141087137260e+07
+    },
+    {
+      "name": "randu2D/u32/elements:4096",
+      "run_type": "iteration",
+      "iterations": 23148,
+      "real_time": 3.3245165116186326e+04,
+      "cpu_time": 3.3197594565405809e+04,
+      "time_unit": "ns",
+      "bytes": 4.9352973353898555e+08
+    },
+    {
+      "name": "randu2D/u32/elements:32768",
+      "run_type": "iteration",
+      "iterations": 19716,
+      "real_time": 3.5767417922948553e+04,
+      "cpu_time": 3.5683756847230172e+04,
+      "time_unit": "ns",
+      "bytes": 3.6723711732771726e+09
+    },
+    {
+      "name": "randu2D/u32/elements:262144",
+      "run_type": "iteration",
+      "iterations": 15661,
+      "real_time": 4.4682165684523265e+04,
+      "cpu_time": 4.4611359747142415e+04,
+      "time_unit": "ns",
+      "bytes": 2.3504685935226768e+10
+    },
+    {
+      "name": "randu2D/u32/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 6092,
+      "real_time": 1.0814078064122955e+05,
+      "cpu_time": 1.0795655285620813e+05,
+      "time_unit": "ns",
+      "bytes": 7.7686956262587891e+10
+    },
+    {
+      "name": "randu2D/u32/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 1128,
+      "real_time": 6.7886253463844140e+05,
+      "cpu_time": 6.7794591843973182e+05,
+      "time_unit": "ns",
+      "bytes": 9.8988521318114349e+10
+    },
+    {
+      "name": "randu2D/u32/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 283,
+      "real_time": 2.6612047208045269e+06,
+      "cpu_time": 2.6573622508833958e+06,
+      "time_unit": "ns",
+      "bytes": 1.0101575572196193e+11
+    },
+    {
+      "name": "randu2D/u8/elements:2",
+      "run_type": "iteration",
+      "iterations": 21147,
+      "real_time": 3.3667846317486474e+04,
+      "cpu_time": 3.3602330496050548e+04,
+      "time_unit": "ns",
+      "bytes": 2.9759840619314637e+04
+    },
+    {
+      "name": "randu2D/u8/elements:8",
+      "run_type": "iteration",
+      "iterations": 20706,
+      "real_time": 3.3661418093450629e+04,
+      "cpu_time": 3.3597191586979337e+04,
+      "time_unit": "ns",
+      "bytes": 1.1905757032234232e+05
+    },
+    {
+      "name": "randu2D/u8/elements:64",
+      "run_type": "iteration",
+      "iterations": 20764,
+      "real_time": 3.4948293154833518e+04,
+      "cpu_time": 3.4893960171451290e+04,
+      "time_unit": "ns",
+      "bytes": 1.8341283043121598e+06
+    },
+    {
+      "name": "randu2D/u8/elements:512",
+      "run_type": "iteration",
+      "iterations": 20092,
+      "real_time": 3.3663964763405362e+04,
+      "cpu_time": 3.3612184401750812e+04,
+      "time_unit": "ns",
+      "bytes": 1.4399540185040431e+07
+    },
+    {
+      "name": "randu2D/u8/elements:4096",
+      "run_type": "iteration",
+      "iterations": 18033,
+      "real_time": 3.2054936102310141e+04,
+      "cpu_time": 3.2039668274828979e+04,
+      "time_unit": "ns",
+      "bytes": 1.2784152335365787e+08
+    },
+    {
+      "name": "randu2D/u8/elements:32768",
+      "run_type": "iteration",
+      "iterations": 22675,
+      "real_time": 3.0723348929410207e+04,
+      "cpu_time": 3.0701687012127306e+04,
+      "time_unit": "ns",
+      "bytes": 1.0670749130840678e+09
+    },
+    {
+      "name": "randu2D/u8/elements:262144",
+      "run_type": "iteration",
+      "iterations": 20462,
+      "real_time": 3.4192569494500865e+04,
+      "cpu_time": 3.4172209852409163e+04,
+      "time_unit": "ns",
+      "bytes": 7.6712627346082706e+09
+    },
+    {
+      "name": "randu2D/u8/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 10549,
+      "real_time": 6.4963910337412162e+04,
+      "cpu_time": 6.4625346857521137e+04,
+      "time_unit": "ns",
+      "bytes": 3.2443988341332737e+10
+    },
+    {
+      "name": "randu2D/u8/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 2559,
+      "real_time": 2.3681518919081741e+05,
+      "cpu_time": 2.3473430324345938e+05,
+      "time_unit": "ns",
+      "bytes": 7.1473217881577271e+10
+    },
+    {
+      "name": "randu2D/u8/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 815,
+      "real_time": 8.8942286221344781e+05,
+      "cpu_time": 8.8516510674845509e+05,
+      "time_unit": "ns",
+      "bytes": 7.5815080698917450e+10
+    },
+    {
+      "name": "randu2D/s64/elements:2",
+      "run_type": "iteration",
+      "iterations": 23517,
+      "real_time": 2.9474201983998624e+04,
+      "cpu_time": 2.9445855296168957e+04,
+      "time_unit": "ns",
+      "bytes": 2.7168509522088279e+05
+    },
+    {
+      "name": "randu2D/s64/elements:8",
+      "run_type": "iteration",
+      "iterations": 23527,
+      "real_time": 2.9596621031695704e+04,
+      "cpu_time": 2.9585508352107168e+04,
+      "time_unit": "ns",
+      "bytes": 1.0816106189272513e+06
+    },
+    {
+      "name": "randu2D/s64/elements:64",
+      "run_type": "iteration",
+      "iterations": 23594,
+      "real_time": 2.9689362736820993e+04,
+      "cpu_time": 2.9665256039671771e+04,
+      "time_unit": "ns",
+      "bytes": 1.7259247630133215e+07
+    },
+    {
+      "name": "randu2D/s64/elements:512",
+      "run_type": "iteration",
+      "iterations": 23554,
+      "real_time": 2.9739526873777886e+04,
+      "cpu_time": 2.9728747006878639e+04,
+      "time_unit": "ns",
+      "bytes": 1.3024430525457722e+08
+    },
+    {
+      "name": "randu2D/s64/elements:4096",
+      "run_type": "iteration",
+      "iterations": 23659,
+      "real_time": 2.9881855737372432e+04,
+      "cpu_time": 2.9859086563253939e+04,
+      "time_unit": "ns",
+      "bytes": 1.0974213806100121e+09
+    },
+    {
+      "name": "randu2D/s64/elements:32768",
+      "run_type": "iteration",
+      "iterations": 20859,
+      "real_time": 3.6066094883726750e+04,
+      "cpu_time": 3.6048049762692972e+04,
+      "time_unit": "ns",
+      "bytes": 7.2705181480092554e+09
+    },
+    {
+      "name": "randu2D/s64/elements:262144",
+      "run_type": "iteration",
+      "iterations": 13085,
+      "real_time": 5.1427680470923406e+04,
+      "cpu_time": 5.1390753458157662e+04,
+      "time_unit": "ns",
+      "bytes": 4.0807963668162613e+10
+    },
+    {
+      "name": "randu2D/s64/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 3778,
+      "real_time": 1.7548240551132415e+05,
+      "cpu_time": 1.7381294150344183e+05,
+      "time_unit": "ns",
+      "bytes": 9.6503930345530975e+10
+    },
+    {
+      "name": "randu2D/s64/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 591,
+      "real_time": 1.2703754012543841e+06,
+      "cpu_time": 1.2628596192893505e+06,
+      "time_unit": "ns",
+      "bytes": 1.0628079792077635e+11
+    },
+    {
+      "name": "randu2D/s64/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 147,
+      "real_time": 4.9602664424245860e+06,
+      "cpu_time": 4.9521597823128588e+06,
+      "time_unit": "ns",
+      "bytes": 1.0841146804622278e+11
+    },
+    {
+      "name": "randu2D/u64/elements:2",
+      "run_type": "iteration",
+      "iterations": 17408,
+      "real_time": 3.9548492141501112e+04,
+      "cpu_time": 3.9451848517923398e+04,
+      "time_unit": "ns",
+      "bytes": 2.0277883801478945e+05
+    },
+    {
+      "name": "randu2D/u64/elements:8",
+      "run_type": "iteration",
+      "iterations": 18012,
+      "real_time": 3.7645061245771773e+04,
+      "cpu_time": 3.7568902176326301e+04,
+      "time_unit": "ns",
+      "bytes": 8.5176830160782556e+05
+    },
+    {
+      "name": "randu2D/u64/elements:64",
+      "run_type": "iteration",
+      "iterations": 19512,
+      "real_time": 3.8228021681082697e+04,
+      "cpu_time": 3.8175521525215365e+04,
+      "time_unit": "ns",
+      "bytes": 1.3411735571492277e+07
+    },
+    {
+      "name": "randu2D/u64/elements:512",
+      "run_type": "iteration",
+      "iterations": 17325,
+      "real_time": 4.1016530444439697e+04,
+      "cpu_time": 4.0961176738817063e+04,
+      "time_unit": "ns",
+      "bytes": 9.4528534292099088e+07
+    },
+    {
+      "name": "randu2D/u64/elements:4096",
+      "run_type": "iteration",
+      "iterations": 17190,
+      "real_time": 4.1246418383377728e+04,
+      "cpu_time": 4.1169960209424760e+04,
+      "time_unit": "ns",
+      "bytes": 7.9592012800873792e+08
+    },
+    {
+      "name": "randu2D/u64/elements:32768",
+      "run_type": "iteration",
+      "iterations": 16784,
+      "real_time": 4.0213866240333402e+04,
+      "cpu_time": 4.0152149487607334e+04,
+      "time_unit": "ns",
+      "bytes": 6.5273715939140816e+09
+    },
+    {
+      "name": "randu2D/u64/elements:262144",
+      "run_type": "iteration",
+      "iterations": 12398,
+      "real_time": 5.7190211170091134e+04,
+      "cpu_time": 5.7061150266171666e+04,
+      "time_unit": "ns",
+      "bytes": 3.6752711612322388e+10
+    },
+    {
+      "name": "randu2D/u64/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 3910,
+      "real_time": 1.8231912797121593e+05,
+      "cpu_time": 1.8204634603580591e+05,
+      "time_unit": "ns",
+      "bytes": 9.2139350035077698e+10
+    },
+    {
+      "name": "randu2D/u64/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 617,
+      "real_time": 1.2675206421465406e+06,
+      "cpu_time": 1.2657318752025997e+06,
+      "time_unit": "ns",
+      "bytes": 1.0603962073603969e+11
+    },
+    {
+      "name": "randu2D/u64/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 147,
+      "real_time": 4.9265282589714136e+06,
+      "cpu_time": 4.9184458911565263e+06,
+      "time_unit": "ns",
+      "bytes": 1.0915458335432860e+11
+    },
+    {
+      "name": "randu2D/s16/elements:2",
+      "run_type": "iteration",
+      "iterations": 17384,
+      "real_time": 4.1117475134930435e+04,
+      "cpu_time": 4.1031197595488862e+04,
+      "time_unit": "ns",
+      "bytes": 4.8743398126402433e+04
+    },
+    {
+      "name": "randu2D/s16/elements:8",
+      "run_type": "iteration",
+      "iterations": 17061,
+      "real_time": 4.1164846899892189e+04,
+      "cpu_time": 4.1111806928082158e+04,
+      "time_unit": "ns",
+      "bytes": 1.9459130108279083e+05
+    },
+    {
+      "name": "randu2D/s16/elements:64",
+      "run_type": "iteration",
+      "iterations": 16968,
+      "real_time": 4.0063568485750591e+04,
+      "cpu_time": 4.0008176744458862e+04,
+      "time_unit": "ns",
+      "bytes": 3.1993459941342622e+06
+    },
+    {
+      "name": "randu2D/s16/elements:512",
+      "run_type": "iteration",
+      "iterations": 17681,
+      "real_time": 4.1066340138827785e+04,
+      "cpu_time": 4.0974738872234637e+04,
+      "time_unit": "ns",
+      "bytes": 2.3624311628156282e+07
+    },
+    {
+      "name": "randu2D/s16/elements:4096",
+      "run_type": "iteration",
+      "iterations": 17042,
+      "real_time": 4.1375424603161824e+04,
+      "cpu_time": 4.1314518953174644e+04,
+      "time_unit": "ns",
+      "bytes": 1.9828380452123162e+08
+    },
+    {
+      "name": "randu2D/s16/elements:32768",
+      "run_type": "iteration",
+      "iterations": 17169,
+      "real_time": 4.0649427436789054e+04,
+      "cpu_time": 4.0589911468344682e+04,
+      "time_unit": "ns",
+      "bytes": 1.6142434814399481e+09
+    },
+    {
+      "name": "randu2D/s16/elements:262144",
+      "run_type": "iteration",
+      "iterations": 15655,
+      "real_time": 4.6210038332617805e+04,
+      "cpu_time": 4.6096948834237424e+04,
+      "time_unit": "ns",
+      "bytes": 1.1373594419129915e+10
+    },
+    {
+      "name": "randu2D/s16/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 8135,
+      "real_time": 8.6332717309371044e+04,
+      "cpu_time": 8.6165801843882960e+04,
+      "time_unit": "ns",
+      "bytes": 4.8666732163622246e+10
+    },
+    {
+      "name": "randu2D/s16/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 1729,
+      "real_time": 4.1785899349345575e+05,
+      "cpu_time": 4.1703027183342347e+05,
+      "time_unit": "ns",
+      "bytes": 8.0460422818904663e+10
+    },
+    {
+      "name": "randu2D/s16/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 464,
+      "real_time": 1.5875832177698612e+06,
+      "cpu_time": 1.5810481788793239e+06,
+      "time_unit": "ns",
+      "bytes": 8.4891611649137726e+10
+    },
+    {
+      "name": "randu2D/u16/elements:2",
+      "run_type": "iteration",
+      "iterations": 17139,
+      "real_time": 4.0679968922001819e+04,
+      "cpu_time": 4.0612648345878850e+04,
+      "time_unit": "ns",
+      "bytes": 4.9245741941449844e+04
+    },
+    {
+      "name": "randu2D/u16/elements:8",
+      "run_type": "iteration",
+      "iterations": 17180,
+      "real_time": 4.0110574229658341e+04,
+      "cpu_time": 4.0050307683351879e+04,
+      "time_unit": "ns",
+      "bytes": 1.9974877754373511e+05
+    },
+    {
+      "name": "randu2D/u16/elements:64",
+      "run_type": "iteration",
+      "iterations": 18232,
+      "real_time": 3.9346805459420480e+04,
+      "cpu_time": 3.9290598946905193e+04,
+      "time_unit": "ns",
+      "bytes": 3.2577767565460387e+06
+    },
+    {
+      "name": "randu2D/u16/elements:512",
+      "run_type": "iteration",
+      "iterations": 17548,
+      "real_time": 3.9174650497063703e+04,
+      "cpu_time": 3.9102505926601567e+04,
+      "time_unit": "ns",
+      "bytes": 2.4755446666692182e+07
+    },
+    {
+      "name": "randu2D/u16/elements:4096",
+      "run_type": "iteration",
+      "iterations": 17896,
+      "real_time": 3.8650906534435017e+04,
+      "cpu_time": 3.8590525480554039e+04,
+      "time_unit": "ns",
+      "bytes": 2.1228008424316457e+08
+    },
+    {
+      "name": "randu2D/u16/elements:32768",
+      "run_type": "iteration",
+      "iterations": 17820,
+      "real_time": 3.8071826526813638e+04,
+      "cpu_time": 3.8006488047137609e+04,
+      "time_unit": "ns",
+      "bytes": 1.7239688107655783e+09
+    },
+    {
+      "name": "randu2D/u16/elements:262144",
+      "run_type": "iteration",
+      "iterations": 15646,
+      "real_time": 4.4795763267533453e+04,
+      "cpu_time": 4.4715739358302009e+04,
+      "time_unit": "ns",
+      "bytes": 1.1724909562580221e+10
+    },
+    {
+      "name": "randu2D/u16/elements:2097152",
+      "run_type": "iteration",
+      "iterations": 6798,
+      "real_time": 9.1160133685976936e+04,
+      "cpu_time": 9.1014457781698613e+04,
+      "time_unit": "ns",
+      "bytes": 4.6074086493577065e+10
+    },
+    {
+      "name": "randu2D/u16/elements:16777216",
+      "run_type": "iteration",
+      "iterations": 1746,
+      "real_time": 4.1243252328427386e+05,
+      "cpu_time": 4.1167929896907922e+05,
+      "time_unit": "ns",
+      "bytes": 8.1506240619886597e+10
+    },
+    {
+      "name": "randu2D/u16/elements:67108864",
+      "run_type": "iteration",
+      "iterations": 461,
+      "real_time": 1.5862569548270449e+06,
+      "cpu_time": 1.5835085683296851e+06,
+      "time_unit": "ns",
+      "bytes": 8.4759710609949783e+10
+    },
+    {
+      "name": "randuDimsBench/f32/d0:1/d1:134217728",
+      "run_type": "iteration",
+      "iterations": 121,
+      "real_time": 5.6276843721462674e+06,
+      "cpu_time": 5.6089777603305764e+06,
+      "time_unit": "ns",
+      "bytes": 9.5716355981478973e+10
+    },
+    {
+      "name": "randuDimsBench/f32/d0:2/d1:67108864",
+      "run_type": "iteration",
+      "iterations": 129,
+      "real_time": 5.6319266824817015e+06,
+      "cpu_time": 5.6318743720930535e+06,
+      "time_unit": "ns",
+      "bytes": 9.5327217286715698e+10
+    },
+    {
+      "name": "randuDimsBench/f32/d0:4/d1:33554432",
+      "run_type": "iteration",
+      "iterations": 126,
+      "real_time": 5.6122312625308363e+06,
+      "cpu_time": 5.6122342142857397e+06,
+      "time_unit": "ns",
+      "bytes": 9.5660817332500931e+10
+    },
+    {
+      "name": "randuDimsBench/f32/d0:8/d1:16777216",
+      "run_type": "iteration",
+      "iterations": 134,
+      "real_time": 5.6590492621675804e+06,
+      "cpu_time": 5.6590513358210148e+06,
+      "time_unit": "ns",
+      "bytes": 9.4869418943362671e+10
+    },
+    {
+      "name": "randuDimsBench/f32/d0:16/d1:8388608",
+      "run_type": "iteration",
+      "iterations": 131,
+      "real_time": 5.6564557572243782e+06,
+      "cpu_time": 5.6564562595418599e+06,
+      "time_unit": "ns",
+      "bytes": 9.4912943257424469e+10
+    },
+    {
+      "name": "randuDimsBench/f32/d0:32/d1:4194304",
+      "run_type": "iteration",
+      "iterations": 122,
+      "real_time": 5.6327359185966309e+06,
+      "cpu_time": 5.6327395081967963e+06,
+      "time_unit": "ns",
+      "bytes": 9.5312575917764740e+10
+    },
+    {
+      "name": "randuDimsBench/f32/d0:64/d1:2097152",
+      "run_type": "iteration",
+      "iterations": 129,
+      "real_time": 5.6497368152982509e+06,
+      "cpu_time": 5.6496483643411109e+06,
+      "time_unit": "ns",
+      "bytes": 9.5027314511920486e+10
+    },
+    {
+      "name": "randuDimsBench/f32/d0:128/d1:1048576",
+      "run_type": "iteration",
+      "iterations": 128,
+      "real_time": 5.6385362804576289e+06,
+      "cpu_time": 5.6385372734375494e+06,
+      "time_unit": "ns",
+      "bytes": 9.5214571787816742e+10
+    },
+    {
+      "name": "randuDimsBench/f32/d0:256/d1:524288",
+      "run_type": "iteration",
+      "iterations": 126,
+      "real_time": 5.6020756259501455e+06,
+      "cpu_time": 5.6020501031747740e+06,
+      "time_unit": "ns",
+      "bytes": 9.5834721595179306e+10
+    }
+  ]
+}

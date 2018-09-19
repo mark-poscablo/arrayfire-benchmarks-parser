@@ -1,0 +1,2576 @@
+{
+  "context": {
+    "date": "2018-09-12 19:46:16",
+    "executable": "./fft",
+    "num_cpus": 16,
+    "mhz_per_cpu": 2095,
+    "cpu_scaling_enabled": false,
+    "caches": [
+      {
+        "type": "Data",
+        "level": 1,
+        "size": 32000000,
+        "num_sharing": 1
+      },
+      {
+        "type": "Instruction",
+        "level": 1,
+        "size": 32000000,
+        "num_sharing": 1
+      },
+      {
+        "type": "Unified",
+        "level": 2,
+        "size": 4096000000,
+        "num_sharing": 1
+      }
+    ],
+    "library_build_type": "debug"
+  },
+  "benchmarks": [
+    {
+      "name": "fft1/f64/dim0:64/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 15320,
+      "real_time": 4.7841060185663927e+01,
+      "cpu_time": 4.7805111292428172e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f64/dim0:128/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 14044,
+      "real_time": 4.9362425589989698e+01,
+      "cpu_time": 4.9301500284819127e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f64/dim0:256/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 14323,
+      "real_time": 4.9737771947134775e+01,
+      "cpu_time": 4.9685698945751589e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f64/dim0:512/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 13077,
+      "real_time": 5.3603102932993565e+01,
+      "cpu_time": 5.3565543626213916e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f64/dim0:1024/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 13257,
+      "real_time": 5.3774994202483661e+01,
+      "cpu_time": 5.3731102285584953e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f64/dim0:2048/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 12508,
+      "real_time": 5.5570452693560306e+01,
+      "cpu_time": 5.5510730172689506e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f64/dim0:4096/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 12723,
+      "real_time": 5.1524706533588457e+01,
+      "cpu_time": 5.1428691739369590e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f64/dim0:8192/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 10959,
+      "real_time": 7.3122467185534731e+01,
+      "cpu_time": 7.2864977278948857e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f64/dim0:16384/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 10002,
+      "real_time": 6.3158457702477556e+01,
+      "cpu_time": 6.3114829534093204e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f64/dim0:32768/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 9933,
+      "real_time": 6.7391913719111486e+01,
+      "cpu_time": 6.6985713580992538e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f64/dim0:65536/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 6916,
+      "real_time": 1.0102076374884197e+02,
+      "cpu_time": 1.0092988779641412e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f64/dim0:131072/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 5567,
+      "real_time": 1.2576904563420291e+02,
+      "cpu_time": 1.2559474600323342e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f64/dim0:262144/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 3056,
+      "real_time": 2.3212314690633906e+02,
+      "cpu_time": 2.3194635602094257e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f64/dim0:524288/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 1540,
+      "real_time": 4.5456541792864539e+02,
+      "cpu_time": 4.5424488701298651e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f32/dim0:64/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 14199,
+      "real_time": 4.9102143681314232e+01,
+      "cpu_time": 4.9066287132896576e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f32/dim0:128/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 13971,
+      "real_time": 4.9381058045314504e+01,
+      "cpu_time": 4.9346165056187928e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f32/dim0:256/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 13781,
+      "real_time": 5.0388152297029613e+01,
+      "cpu_time": 5.0348419563166651e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f32/dim0:512/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 14486,
+      "real_time": 4.8306693248250170e+01,
+      "cpu_time": 4.8272125017258205e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f32/dim0:1024/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 13765,
+      "real_time": 5.1742954510495828e+01,
+      "cpu_time": 5.1704966218670634e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f32/dim0:2048/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 13443,
+      "real_time": 5.1939230375388171e+01,
+      "cpu_time": 5.1881529048575501e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f32/dim0:4096/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 13305,
+      "real_time": 5.1876294788159363e+01,
+      "cpu_time": 5.1839642390078751e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f32/dim0:8192/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 13365,
+      "real_time": 5.2487635772481553e+01,
+      "cpu_time": 5.2450502731014026e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f32/dim0:16384/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 10189,
+      "real_time": 6.8373218884759055e+01,
+      "cpu_time": 6.8283559034252548e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f32/dim0:32768/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 9747,
+      "real_time": 7.3337218338839392e+01,
+      "cpu_time": 7.3233679696316742e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f32/dim0:65536/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 8895,
+      "real_time": 7.8687995374872827e+01,
+      "cpu_time": 7.8628917481731506e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f32/dim0:131072/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 7163,
+      "real_time": 9.7388767304595049e+01,
+      "cpu_time": 9.7323700823677072e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f32/dim0:262144/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 4585,
+      "real_time": 1.5296082661335834e+02,
+      "cpu_time": 1.5244028222464613e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft1/f32/dim0:524288/dim1:1/dim2:1/fft_dim:1",
+      "run_type": "iteration",
+      "iterations": 2573,
+      "real_time": 2.7211774897092380e+02,
+      "cpu_time": 2.7145162339681241e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:16/dim1:16/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11731,
+      "real_time": 5.7477671210036824e+01,
+      "cpu_time": 5.7438926604722447e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:32/dim1:16/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11933,
+      "real_time": 5.9342981998817343e+01,
+      "cpu_time": 5.9253776166932084e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:64/dim1:16/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 10849,
+      "real_time": 6.3692193845071841e+01,
+      "cpu_time": 6.3648423264817183e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:128/dim1:16/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 10672,
+      "real_time": 6.5233230245588672e+01,
+      "cpu_time": 6.5161587331334559e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:256/dim1:16/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 10341,
+      "real_time": 6.4081770912160053e+01,
+      "cpu_time": 6.4034868387969993e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:512/dim1:16/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11572,
+      "real_time": 5.7696449968576268e+01,
+      "cpu_time": 5.7612146128586083e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:1024/dim1:16/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12194,
+      "real_time": 5.7623376251085773e+01,
+      "cpu_time": 5.7544277759554006e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:2048/dim1:16/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11692,
+      "real_time": 5.9242772944959782e+01,
+      "cpu_time": 5.9181512658227639e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:4096/dim1:16/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 8251,
+      "real_time": 8.3911829978975291e+01,
+      "cpu_time": 8.3847349533389604e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:16/dim1:32/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 13792,
+      "real_time": 5.0691571510710219e+01,
+      "cpu_time": 5.0622001232598492e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:32/dim1:32/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12846,
+      "real_time": 5.6649314721884728e+01,
+      "cpu_time": 5.6588340105869733e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:64/dim1:32/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11143,
+      "real_time": 5.8308323694991969e+01,
+      "cpu_time": 5.8263577672080864e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:128/dim1:32/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12138,
+      "real_time": 5.5689306358545451e+01,
+      "cpu_time": 5.5645952051408443e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:256/dim1:32/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12193,
+      "real_time": 5.7335009827890907e+01,
+      "cpu_time": 5.7256335930451989e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:512/dim1:32/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11827,
+      "real_time": 5.7831148820054132e+01,
+      "cpu_time": 5.7760314703644347e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:1024/dim1:32/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11820,
+      "real_time": 5.9223110005952883e+01,
+      "cpu_time": 5.9165563282571604e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:2048/dim1:32/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 9800,
+      "real_time": 7.0471390511612498e+01,
+      "cpu_time": 7.0417024591837034e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:4096/dim1:32/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 5805,
+      "real_time": 1.2169857569597180e+02,
+      "cpu_time": 1.2159925581395339e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:16/dim1:64/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 10896,
+      "real_time": 6.3322518896461958e+01,
+      "cpu_time": 6.3234709067547577e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:32/dim1:64/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11372,
+      "real_time": 5.9193256163705605e+01,
+      "cpu_time": 5.9103825272599849e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:64/dim1:64/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11943,
+      "real_time": 5.5489446139685981e+01,
+      "cpu_time": 5.5432937117977083e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:128/dim1:64/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12427,
+      "real_time": 5.6704637166818628e+01,
+      "cpu_time": 5.6663760038625909e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:256/dim1:64/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11952,
+      "real_time": 5.8052184666760034e+01,
+      "cpu_time": 5.7880661730254523e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:512/dim1:64/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11800,
+      "real_time": 5.9609555449905031e+01,
+      "cpu_time": 5.9569344067796358e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:1024/dim1:64/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 9356,
+      "real_time": 7.4895823327804564e+01,
+      "cpu_time": 7.4813859127832984e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:2048/dim1:64/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 6822,
+      "real_time": 1.0021579491722116e+02,
+      "cpu_time": 1.0014399618880124e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:4096/dim1:64/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 3021,
+      "real_time": 2.3340347131423823e+02,
+      "cpu_time": 2.3323743760344334e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:16/dim1:128/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11953,
+      "real_time": 5.6833949947952078e+01,
+      "cpu_time": 5.6746001087593235e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:32/dim1:128/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12747,
+      "real_time": 5.4199380721659288e+01,
+      "cpu_time": 5.4139030987683512e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:64/dim1:128/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12756,
+      "real_time": 5.5066503858320502e+01,
+      "cpu_time": 5.5009971307620006e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:128/dim1:128/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12324,
+      "real_time": 5.7218191322726362e+01,
+      "cpu_time": 5.7177112463485699e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:256/dim1:128/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 10922,
+      "real_time": 6.7806082667339155e+01,
+      "cpu_time": 6.7761410364402607e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:512/dim1:128/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 8637,
+      "real_time": 7.4855262579462575e+01,
+      "cpu_time": 7.4714203427115820e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:1024/dim1:128/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 6742,
+      "real_time": 1.0363408081173826e+02,
+      "cpu_time": 1.0356585597745575e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:2048/dim1:128/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 3683,
+      "real_time": 1.8782943928173759e+02,
+      "cpu_time": 1.8767143198479511e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:4096/dim1:128/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 1594,
+      "real_time": 4.3933921075254267e+02,
+      "cpu_time": 4.3885808155583578e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:16/dim1:256/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12454,
+      "real_time": 5.5148198167755012e+01,
+      "cpu_time": 5.5083351613939499e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:32/dim1:256/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12438,
+      "real_time": 5.7324411296292425e+01,
+      "cpu_time": 5.7280604357613626e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:64/dim1:256/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 10695,
+      "real_time": 6.4526140331079489e+01,
+      "cpu_time": 6.4477496306685936e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:128/dim1:256/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 10682,
+      "real_time": 6.3881121713237754e+01,
+      "cpu_time": 6.3835739187417808e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:256/dim1:256/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 9283,
+      "real_time": 7.4106485940147593e+01,
+      "cpu_time": 7.4040726597005445e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:512/dim1:256/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 6701,
+      "real_time": 1.0441348288547920e+02,
+      "cpu_time": 1.0434881181913212e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:1024/dim1:256/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 3652,
+      "real_time": 1.9281149866326680e+02,
+      "cpu_time": 1.9266006078861025e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:2048/dim1:256/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 2071,
+      "real_time": 3.3899283671561847e+02,
+      "cpu_time": 3.3876598647996042e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:4096/dim1:256/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 836,
+      "real_time": 8.4430867812761142e+02,
+      "cpu_time": 8.4371510047846698e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:16/dim1:512/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11235,
+      "real_time": 6.2213671357633274e+01,
+      "cpu_time": 6.2157640587449905e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:32/dim1:512/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 10861,
+      "real_time": 6.4064319581740051e+01,
+      "cpu_time": 6.4017504557591010e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:64/dim1:512/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 10680,
+      "real_time": 6.4240013291075655e+01,
+      "cpu_time": 6.4178288389512488e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:128/dim1:512/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 9013,
+      "real_time": 7.3088622544219959e+01,
+      "cpu_time": 7.3033552424275840e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:256/dim1:512/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 6419,
+      "real_time": 1.0913153596699452e+02,
+      "cpu_time": 1.0900425845147342e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:512/dim1:512/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 3564,
+      "real_time": 2.0249295084999599e+02,
+      "cpu_time": 2.0230404854096207e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:1024/dim1:512/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 1928,
+      "real_time": 3.6224406004856297e+02,
+      "cpu_time": 3.6195937759336022e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:2048/dim1:512/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 1047,
+      "real_time": 6.8321445095775346e+02,
+      "cpu_time": 6.8269101337154405e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:4096/dim1:512/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 401,
+      "real_time": 1.7613174505253087e+03,
+      "cpu_time": 1.7596165660848014e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:16/dim1:1024/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 8735,
+      "real_time": 8.0682578937507174e+01,
+      "cpu_time": 8.0581594848311326e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:32/dim1:1024/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 8629,
+      "real_time": 8.0516669957075379e+01,
+      "cpu_time": 8.0447561131069861e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:64/dim1:1024/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 7764,
+      "real_time": 8.5612031953128138e+01,
+      "cpu_time": 8.5551567877382951e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:128/dim1:1024/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 5704,
+      "real_time": 1.2298573915837503e+02,
+      "cpu_time": 1.2284718758765746e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:256/dim1:1024/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 3016,
+      "real_time": 2.3403433716636081e+02,
+      "cpu_time": 2.3381276061008072e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:512/dim1:1024/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 1597,
+      "real_time": 4.4052089601241954e+02,
+      "cpu_time": 4.4024313713212553e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:1024/dim1:1024/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 850,
+      "real_time": 8.3099484827150320e+02,
+      "cpu_time": 8.3040207176469153e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:2048/dim1:1024/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 443,
+      "real_time": 1.5985452250470291e+03,
+      "cpu_time": 1.5972950248306943e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:4096/dim1:1024/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 176,
+      "real_time": 3.9932224873072382e+03,
+      "cpu_time": 3.9891825113636382e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:16/dim1:2048/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 8546,
+      "real_time": 8.1915028313496975e+01,
+      "cpu_time": 8.1830204540134758e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:32/dim1:2048/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 7435,
+      "real_time": 8.8573008758174382e+01,
+      "cpu_time": 8.8489962878279442e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:64/dim1:2048/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 5522,
+      "real_time": 1.2689686543249168e+02,
+      "cpu_time": 1.2673775316914178e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:128/dim1:2048/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 2993,
+      "real_time": 2.3597986831006460e+02,
+      "cpu_time": 2.3575624557300091e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:256/dim1:2048/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 1580,
+      "real_time": 4.4437119342339565e+02,
+      "cpu_time": 4.4397533227848533e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:512/dim1:2048/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 836,
+      "real_time": 8.4624387675887374e+02,
+      "cpu_time": 8.4521003349282171e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:1024/dim1:2048/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 436,
+      "real_time": 1.6225386259291288e+03,
+      "cpu_time": 1.6212337821101119e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:2048/dim1:2048/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 228,
+      "real_time": 3.0850625306923398e+03,
+      "cpu_time": 3.0812815175438559e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:4096/dim1:2048/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 95,
+      "real_time": 7.9432924621199309e+03,
+      "cpu_time": 7.9284884421053002e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:16/dim1:4096/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 6758,
+      "real_time": 9.4710306597134348e+01,
+      "cpu_time": 9.4694182598402591e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:32/dim1:4096/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 5518,
+      "real_time": 1.2459452554310802e+02,
+      "cpu_time": 1.2456966255889822e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:64/dim1:4096/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 3059,
+      "real_time": 2.3116927484952183e+02,
+      "cpu_time": 2.3116494736842461e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:128/dim1:4096/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 1575,
+      "real_time": 4.4431020195285481e+02,
+      "cpu_time": 4.4422651174603823e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:256/dim1:4096/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 828,
+      "real_time": 8.4902458444039746e+02,
+      "cpu_time": 8.4890354830917363e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:512/dim1:4096/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 430,
+      "real_time": 1.6342484305591083e+03,
+      "cpu_time": 1.6337800976744079e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:1024/dim1:4096/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 221,
+      "real_time": 3.1927739506022695e+03,
+      "cpu_time": 3.1920912579185874e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:2048/dim1:4096/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 121,
+      "real_time": 6.2875233798418658e+03,
+      "cpu_time": 6.2873567520660308e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f64/dim0:4096/dim1:4096/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 62,
+      "real_time": 1.2182565075495551e+04,
+      "cpu_time": 1.2035941967741934e+04,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:16/dim1:16/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 13114,
+      "real_time": 5.2658975307868168e+01,
+      "cpu_time": 5.2543056428244668e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:32/dim1:16/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 13158,
+      "real_time": 5.3203939664772008e+01,
+      "cpu_time": 5.3144648730810509e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:64/dim1:16/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12355,
+      "real_time": 5.6581673386100810e+01,
+      "cpu_time": 5.6475777579927012e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:128/dim1:16/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11521,
+      "real_time": 6.4484607653039035e+01,
+      "cpu_time": 6.4272087492405063e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:256/dim1:16/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 9821,
+      "real_time": 7.0507477846790536e+01,
+      "cpu_time": 7.0409017513491023e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:512/dim1:16/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 9937,
+      "real_time": 6.8592611243679357e+01,
+      "cpu_time": 6.8524042668813379e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:1024/dim1:16/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 10194,
+      "real_time": 6.7782852241770527e+01,
+      "cpu_time": 6.7723914263293182e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:2048/dim1:16/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 10064,
+      "real_time": 6.9688289770145786e+01,
+      "cpu_time": 6.9525031697138004e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:4096/dim1:16/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 9622,
+      "real_time": 7.1466261926729473e+01,
+      "cpu_time": 7.1111878091873010e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:16/dim1:32/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12645,
+      "real_time": 5.3378054816916602e+01,
+      "cpu_time": 5.3317236219850052e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:32/dim1:32/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12418,
+      "real_time": 5.6356276195141731e+01,
+      "cpu_time": 5.6233411982605475e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:64/dim1:32/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12246,
+      "real_time": 5.6791828036315593e+01,
+      "cpu_time": 5.6703871549894210e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:128/dim1:32/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11803,
+      "real_time": 5.8658579758157835e+01,
+      "cpu_time": 5.8563826400066972e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:256/dim1:32/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11171,
+      "real_time": 6.2509678989827563e+01,
+      "cpu_time": 6.2428111180735797e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:512/dim1:32/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11373,
+      "real_time": 6.1347372623554037e+01,
+      "cpu_time": 6.1322372021454278e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:1024/dim1:32/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 10982,
+      "real_time": 6.3240439740442618e+01,
+      "cpu_time": 6.3193391094518525e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:2048/dim1:32/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 10189,
+      "real_time": 6.8345286794111388e+01,
+      "cpu_time": 6.8121416822063068e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:4096/dim1:32/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 6994,
+      "real_time": 8.7182521569727143e+01,
+      "cpu_time": 8.7179340291678301e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:16/dim1:64/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 13499,
+      "real_time": 5.1881097181522101e+01,
+      "cpu_time": 5.1881110897103426e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:32/dim1:64/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12623,
+      "real_time": 5.4873495846620820e+01,
+      "cpu_time": 5.4872399112731330e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:64/dim1:64/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12378,
+      "real_time": 5.5500814511512473e+01,
+      "cpu_time": 5.5487269833575255e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:128/dim1:64/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12293,
+      "real_time": 5.6824099634927293e+01,
+      "cpu_time": 5.6820062474578812e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:256/dim1:64/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11854,
+      "real_time": 5.9092385186533292e+01,
+      "cpu_time": 5.9084382233845027e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:512/dim1:64/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11777,
+      "real_time": 5.9046101201807410e+01,
+      "cpu_time": 5.9031883077183586e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:1024/dim1:64/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11245,
+      "real_time": 6.1603669009244726e+01,
+      "cpu_time": 6.1603317474433105e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:2048/dim1:64/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 9318,
+      "real_time": 7.1346117275518949e+01,
+      "cpu_time": 7.1343002897616643e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:4096/dim1:64/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 6609,
+      "real_time": 1.0528573416875790e+02,
+      "cpu_time": 1.0528437221969943e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:16/dim1:128/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12654,
+      "real_time": 5.4749265850127280e+01,
+      "cpu_time": 5.4748461593172273e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:32/dim1:128/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12836,
+      "real_time": 5.4529991193017729e+01,
+      "cpu_time": 5.4516961826113132e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:64/dim1:128/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12758,
+      "real_time": 5.4679018413047373e+01,
+      "cpu_time": 5.4678703636933541e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:128/dim1:128/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12449,
+      "real_time": 5.6201296172696757e+01,
+      "cpu_time": 5.6201337858462281e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:256/dim1:128/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 12050,
+      "real_time": 5.8094060659037588e+01,
+      "cpu_time": 5.8082072697095178e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:512/dim1:128/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11556,
+      "real_time": 5.9860732693930487e+01,
+      "cpu_time": 5.9858563949463367e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:1024/dim1:128/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 9684,
+      "real_time": 7.2098237191908169e+01,
+      "cpu_time": 7.2095562061131773e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:2048/dim1:128/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 6676,
+      "real_time": 1.0475648428693441e+02,
+      "cpu_time": 1.0475595206710598e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:4096/dim1:128/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 3501,
+      "real_time": 1.9394731645463568e+02,
+      "cpu_time": 1.9290605398457760e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:16/dim1:256/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 10408,
+      "real_time": 6.7423634319856106e+01,
+      "cpu_time": 6.7395671502690220e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:32/dim1:256/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 10363,
+      "real_time": 6.7453485749382253e+01,
+      "cpu_time": 6.7409449483739280e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:64/dim1:256/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 10312,
+      "real_time": 6.7613922732197977e+01,
+      "cpu_time": 6.7568305469355749e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:128/dim1:256/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 10220,
+      "real_time": 6.8586046803822839e+01,
+      "cpu_time": 6.8540633268102610e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:256/dim1:256/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 9827,
+      "real_time": 7.0974335536532095e+01,
+      "cpu_time": 7.0933230385672502e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:512/dim1:256/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 8986,
+      "real_time": 7.7698924546597425e+01,
+      "cpu_time": 7.7672047295793149e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:1024/dim1:256/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 6278,
+      "real_time": 1.0986487940725209e+02,
+      "cpu_time": 1.0978870245301236e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:2048/dim1:256/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 3774,
+      "real_time": 1.8795386695110045e+02,
+      "cpu_time": 1.8698421409644521e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:4096/dim1:256/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 2065,
+      "real_time": 3.4353704739713783e+02,
+      "cpu_time": 3.4235715157384936e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:16/dim1:512/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 8581,
+      "real_time": 7.9660266598730203e+01,
+      "cpu_time": 7.9610868430254769e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:32/dim1:512/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 8996,
+      "real_time": 7.7688561735046122e+01,
+      "cpu_time": 7.7638076589595101e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:64/dim1:512/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 8866,
+      "real_time": 8.0452563639031879e+01,
+      "cpu_time": 8.0402873674713419e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:128/dim1:512/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 8531,
+      "real_time": 7.9148080066333776e+01,
+      "cpu_time": 7.9104104794279593e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:256/dim1:512/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 8743,
+      "real_time": 7.8972336522664733e+01,
+      "cpu_time": 7.8594407068511430e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:512/dim1:512/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 5983,
+      "real_time": 1.1680089941299043e+02,
+      "cpu_time": 1.1673674243690732e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:1024/dim1:512/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 3531,
+      "real_time": 2.0172007706863488e+02,
+      "cpu_time": 2.0073032228830414e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:2048/dim1:512/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 2004,
+      "real_time": 3.5150488513241152e+02,
+      "cpu_time": 3.5131074950099617e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:4096/dim1:512/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 1048,
+      "real_time": 6.8149573697516598e+02,
+      "cpu_time": 6.7854520324425971e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:16/dim1:1024/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 9128,
+      "real_time": 6.1124117451570569e+01,
+      "cpu_time": 6.1124097721296479e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:32/dim1:1024/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 11394,
+      "real_time": 6.0609945945987079e+01,
+      "cpu_time": 6.0609568632615691e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:64/dim1:1024/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 10351,
+      "real_time": 6.6582951478788956e+01,
+      "cpu_time": 6.6566216017778316e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:128/dim1:1024/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 8455,
+      "real_time": 7.7852210672137161e+01,
+      "cpu_time": 7.7851748196333531e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:256/dim1:1024/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 5936,
+      "real_time": 1.2045956924030523e+02,
+      "cpu_time": 1.2042882058625281e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:512/dim1:1024/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 3202,
+      "real_time": 2.2096901496221952e+02,
+      "cpu_time": 2.2096916177389383e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:1024/dim1:1024/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 1934,
+      "real_time": 3.6348842615078684e+02,
+      "cpu_time": 3.6340380455016179e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:2048/dim1:1024/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 922,
+      "real_time": 7.7220897287243486e+02,
+      "cpu_time": 7.7219552386117857e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:4096/dim1:1024/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 410,
+      "real_time": 1.7519921223383124e+03,
+      "cpu_time": 1.7519105121951316e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:16/dim1:2048/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 8791,
+      "real_time": 7.6049506772759159e+01,
+      "cpu_time": 7.6027908656579896e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:32/dim1:2048/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 9048,
+      "real_time": 7.6686125320722496e+01,
+      "cpu_time": 7.6685718501326178e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:64/dim1:2048/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 8028,
+      "real_time": 8.6086872312197144e+01,
+      "cpu_time": 8.6062823492774541e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:128/dim1:2048/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 5223,
+      "real_time": 1.3348598237535106e+02,
+      "cpu_time": 1.3348389201608077e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:256/dim1:2048/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 2984,
+      "real_time": 2.3610634609417684e+02,
+      "cpu_time": 2.3610654892762065e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:512/dim1:2048/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 1602,
+      "real_time": 4.3938611488738161e+02,
+      "cpu_time": 4.3938369413234500e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:1024/dim1:2048/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 834,
+      "real_time": 8.4563548178624194e+02,
+      "cpu_time": 8.4563592206234205e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:2048/dim1:2048/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 446,
+      "real_time": 1.5872108589256425e+03,
+      "cpu_time": 1.5866688654708421e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:4096/dim1:2048/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 222,
+      "real_time": 3.1676360443737863e+03,
+      "cpu_time": 3.1676373018018057e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:16/dim1:4096/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 8093,
+      "real_time": 8.3318405669473918e+01,
+      "cpu_time": 8.3297948103300172e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:32/dim1:4096/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 7613,
+      "real_time": 8.9955969954502336e+01,
+      "cpu_time": 8.9940614737949517e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:64/dim1:4096/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 5281,
+      "real_time": 1.3296541873745858e+02,
+      "cpu_time": 1.3288085741336931e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:128/dim1:4096/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 2983,
+      "real_time": 2.3707495006366420e+02,
+      "cpu_time": 2.3707331143144475e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:256/dim1:4096/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 1615,
+      "real_time": 4.3500164327652828e+02,
+      "cpu_time": 4.3487835603715189e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:512/dim1:4096/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 842,
+      "real_time": 8.3896343600703960e+02,
+      "cpu_time": 8.3895803800476210e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:1024/dim1:4096/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 427,
+      "real_time": 1.6558674443295047e+03,
+      "cpu_time": 1.6557986487119376e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:2048/dim1:4096/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 225,
+      "real_time": 3.1335678800112673e+03,
+      "cpu_time": 3.1307959555555144e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft2/f32/dim0:4096/dim1:4096/dim2:1/fft_dim:2",
+      "run_type": "iteration",
+      "iterations": 121,
+      "real_time": 6.2744022608726973e+03,
+      "cpu_time": 6.2127456859505110e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:16/dim1:16/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 9263,
+      "real_time": 7.3985510190938186e+01,
+      "cpu_time": 7.3883144337689544e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:32/dim1:16/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 9225,
+      "real_time": 7.6830694174298102e+01,
+      "cpu_time": 7.6785822547427600e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:64/dim1:16/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8968,
+      "real_time": 7.7672741175641661e+01,
+      "cpu_time": 7.7620816681533356e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:128/dim1:16/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8777,
+      "real_time": 8.0499744474195168e+01,
+      "cpu_time": 8.0202986327903005e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:16/dim1:32/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8898,
+      "real_time": 8.0426336615895877e+01,
+      "cpu_time": 8.0279303776129211e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:32/dim1:32/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8677,
+      "real_time": 8.0732009234609890e+01,
+      "cpu_time": 8.0693878990435806e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:64/dim1:32/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8419,
+      "real_time": 8.2606770415029416e+01,
+      "cpu_time": 8.2547337569781803e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:128/dim1:32/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 7254,
+      "real_time": 9.1171639655345160e+01,
+      "cpu_time": 9.0217091397848350e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:16/dim1:64/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8751,
+      "real_time": 8.0734037553333664e+01,
+      "cpu_time": 8.0684202148326236e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:32/dim1:64/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8596,
+      "real_time": 7.9897918331919158e+01,
+      "cpu_time": 7.9842467426710428e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:64/dim1:64/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8094,
+      "real_time": 9.1523704702857984e+01,
+      "cpu_time": 9.1355442673586609e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:128/dim1:64/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 5200,
+      "real_time": 1.2967001861677721e+02,
+      "cpu_time": 1.2962213365385037e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:16/dim1:128/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8269,
+      "real_time": 8.4738961046689766e+01,
+      "cpu_time": 8.4683469947997054e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:32/dim1:128/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 7943,
+      "real_time": 8.7637684258629903e+01,
+      "cpu_time": 8.7585725166812779e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:64/dim1:128/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 5151,
+      "real_time": 1.3596655041922460e+02,
+      "cpu_time": 1.3588636323044389e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:128/dim1:128/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 2806,
+      "real_time": 2.4744323806615489e+02,
+      "cpu_time": 2.4744326051317736e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:16/dim1:16/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8885,
+      "real_time": 7.8493152725676438e+01,
+      "cpu_time": 7.8492537760268064e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:32/dim1:16/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8869,
+      "real_time": 7.3194382236555370e+01,
+      "cpu_time": 7.3191466794451827e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:64/dim1:16/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 10215,
+      "real_time": 6.8272078912149027e+01,
+      "cpu_time": 6.8270323837493990e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:128/dim1:16/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8738,
+      "real_time": 7.7772096100436599e+01,
+      "cpu_time": 7.7771669260699838e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:16/dim1:32/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 10267,
+      "real_time": 6.8165725039912715e+01,
+      "cpu_time": 6.8163624232980041e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:32/dim1:32/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 10105,
+      "real_time": 6.8797020979856043e+01,
+      "cpu_time": 6.8797010291934782e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:64/dim1:32/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8908,
+      "real_time": 7.8528252466643238e+01,
+      "cpu_time": 7.8526505612932510e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:128/dim1:32/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 5696,
+      "real_time": 1.2275448240329291e+02,
+      "cpu_time": 1.2275068153090206e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:16/dim1:64/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 9421,
+      "real_time": 7.3720684431025887e+01,
+      "cpu_time": 7.3720294130134945e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:32/dim1:64/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8403,
+      "real_time": 8.3506851734472264e+01,
+      "cpu_time": 8.3504140545043086e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:64/dim1:64/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 5560,
+      "real_time": 1.2645086871540482e+02,
+      "cpu_time": 1.2645084964028700e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:128/dim1:64/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 2960,
+      "real_time": 2.3875412597270633e+02,
+      "cpu_time": 2.3875071824324675e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:16/dim1:128/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 7450,
+      "real_time": 9.1452512190045923e+01,
+      "cpu_time": 9.1450521744967318e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:32/dim1:128/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 5069,
+      "real_time": 1.3348495124341892e+02,
+      "cpu_time": 1.3311119747485225e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:64/dim1:128/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 2815,
+      "real_time": 2.4237457156631282e+02,
+      "cpu_time": 2.4225795985790475e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:128/dim1:128/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 1543,
+      "real_time": 4.4950158519360127e+02,
+      "cpu_time": 4.4922109721322738e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:16/dim1:16/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 10060,
+      "real_time": 6.9311186467588072e+01,
+      "cpu_time": 6.9271313717693687e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:32/dim1:16/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 9749,
+      "real_time": 7.1105828394289688e+01,
+      "cpu_time": 7.1066680890347214e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:64/dim1:16/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8144,
+      "real_time": 8.1953572357267376e+01,
+      "cpu_time": 8.1758281925342047e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:128/dim1:16/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 5542,
+      "real_time": 1.2641442186447503e+02,
+      "cpu_time": 1.2637209346806368e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:16/dim1:32/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 9475,
+      "real_time": 7.3683882441794339e+01,
+      "cpu_time": 7.3632381213719711e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:32/dim1:32/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8316,
+      "real_time": 8.4014698433429501e+01,
+      "cpu_time": 8.3965581649832743e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:64/dim1:32/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 5478,
+      "real_time": 1.2685838738587617e+02,
+      "cpu_time": 1.2678884392113928e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:128/dim1:32/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 2848,
+      "real_time": 2.4321685748546270e+02,
+      "cpu_time": 2.4303760217696833e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:16/dim1:64/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 7462,
+      "real_time": 9.1337483661826894e+01,
+      "cpu_time": 9.1275490887159677e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:32/dim1:64/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 5597,
+      "real_time": 1.2616901764137332e+02,
+      "cpu_time": 1.2599115722708854e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:64/dim1:64/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 3259,
+      "real_time": 2.1781365753783885e+02,
+      "cpu_time": 2.1764969653268190e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:128/dim1:64/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 1561,
+      "real_time": 4.5056667919870296e+02,
+      "cpu_time": 4.5010492825112863e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:16/dim1:128/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 4513,
+      "real_time": 1.5227884114442367e+02,
+      "cpu_time": 1.5184015267006373e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:32/dim1:128/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 2888,
+      "real_time": 2.4713148086246650e+02,
+      "cpu_time": 2.4582199168974958e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:64/dim1:128/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 1584,
+      "real_time": 4.4333413884165986e+02,
+      "cpu_time": 4.4305693244949811e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:128/dim1:128/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 810,
+      "real_time": 8.7806495297470212e+02,
+      "cpu_time": 8.7624770370371994e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:16/dim1:16/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 7628,
+      "real_time": 8.5231143159290752e+01,
+      "cpu_time": 8.5184589145254023e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:32/dim1:16/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 7512,
+      "real_time": 8.6793059104293803e+01,
+      "cpu_time": 8.6779140441958944e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:64/dim1:16/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 5289,
+      "real_time": 1.3339560546542998e+02,
+      "cpu_time": 1.3333913537530930e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:128/dim1:16/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 2867,
+      "real_time": 2.4649239056537408e+02,
+      "cpu_time": 2.4643068050226333e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:16/dim1:32/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 7242,
+      "real_time": 9.3974994631312853e+01,
+      "cpu_time": 9.3953091687379541e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:32/dim1:32/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 5426,
+      "real_time": 1.3071408938483322e+02,
+      "cpu_time": 1.3065499999999901e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:64/dim1:32/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 2872,
+      "real_time": 2.4739178698535875e+02,
+      "cpu_time": 2.4668952054317049e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:128/dim1:32/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 1528,
+      "real_time": 4.5780371813620417e+02,
+      "cpu_time": 4.5762192212042015e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:16/dim1:64/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 4526,
+      "real_time": 1.4717278331666330e+02,
+      "cpu_time": 1.4714600220945385e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:32/dim1:64/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 2893,
+      "real_time": 2.4563579852610692e+02,
+      "cpu_time": 2.4555924576563564e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:64/dim1:64/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 1560,
+      "real_time": 4.4507895363494754e+02,
+      "cpu_time": 4.4424454294872436e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:128/dim1:64/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 805,
+      "real_time": 8.7948389559613997e+02,
+      "cpu_time": 8.7521250807453748e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:16/dim1:128/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 2463,
+      "real_time": 2.7721045237039095e+02,
+      "cpu_time": 2.7698733252132070e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:32/dim1:128/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 1562,
+      "real_time": 4.4987119600730119e+02,
+      "cpu_time": 4.4941545006402083e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:64/dim1:128/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 831,
+      "real_time": 8.5299599985227826e+02,
+      "cpu_time": 8.5226077737665446e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f64/dim0:128/dim1:128/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 410,
+      "real_time": 1.7181696904050868e+03,
+      "cpu_time": 1.7169993682927043e+03,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:16/dim1:16/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 10423,
+      "real_time": 6.5904573159358279e+01,
+      "cpu_time": 6.5836036170008143e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:32/dim1:16/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 10528,
+      "real_time": 6.7121251038626667e+01,
+      "cpu_time": 6.7071371770518724e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:64/dim1:16/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 10513,
+      "real_time": 6.6659782157319157e+01,
+      "cpu_time": 6.6599077047466793e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:128/dim1:16/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 10301,
+      "real_time": 6.9570761279201818e+01,
+      "cpu_time": 6.9512572468691218e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:16/dim1:32/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 9865,
+      "real_time": 7.0626742654473901e+01,
+      "cpu_time": 7.0583983375569588e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:32/dim1:32/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 9766,
+      "real_time": 7.2335654813601735e+01,
+      "cpu_time": 7.2276219332378787e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:64/dim1:32/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 9684,
+      "real_time": 7.4927101814977050e+01,
+      "cpu_time": 7.4879761875259177e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:128/dim1:32/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 6446,
+      "real_time": 9.1132087638215026e+01,
+      "cpu_time": 9.0984831058024298e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:16/dim1:64/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 9030,
+      "real_time": 7.5139364347290893e+01,
+      "cpu_time": 7.5086549612403431e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:32/dim1:64/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 9404,
+      "real_time": 7.3959777109492890e+01,
+      "cpu_time": 7.3862976180350046e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:64/dim1:64/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8885,
+      "real_time": 7.7255156685712976e+01,
+      "cpu_time": 7.6925192571750401e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:128/dim1:64/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 7357,
+      "real_time": 8.5608700835418816e+01,
+      "cpu_time": 8.5141603235016234e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:16/dim1:128/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8544,
+      "real_time": 8.6400335897039270e+01,
+      "cpu_time": 8.6354385533708054e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:32/dim1:128/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8130,
+      "real_time": 8.4800027920274573e+01,
+      "cpu_time": 8.4768116605165972e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:64/dim1:128/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 7702,
+      "real_time": 9.0377188779334375e+01,
+      "cpu_time": 9.0319880290835329e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:128/dim1:128/dim2:16/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 5142,
+      "real_time": 1.3594328297591196e+02,
+      "cpu_time": 1.3583875943212865e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:16/dim1:16/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8902,
+      "real_time": 7.6785902809699024e+01,
+      "cpu_time": 7.6742983823860982e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:32/dim1:16/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 9309,
+      "real_time": 7.5522536796656027e+01,
+      "cpu_time": 7.5473201417981088e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:64/dim1:16/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 9204,
+      "real_time": 7.6848739350958525e+01,
+      "cpu_time": 7.6819919382877472e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:128/dim1:16/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8928,
+      "real_time": 7.8084417656364465e+01,
+      "cpu_time": 7.8024469982076667e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:16/dim1:32/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 9030,
+      "real_time": 7.7536579423634578e+01,
+      "cpu_time": 7.7481676522700013e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:32/dim1:32/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8984,
+      "real_time": 7.7684961567456213e+01,
+      "cpu_time": 7.7636933214601115e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:64/dim1:32/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8944,
+      "real_time": 7.3843468232613475e+01,
+      "cpu_time": 7.3798490608231234e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:128/dim1:32/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8501,
+      "real_time": 8.1786521095964375e+01,
+      "cpu_time": 8.1749205975764880e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:16/dim1:64/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8864,
+      "real_time": 7.7251421566296116e+01,
+      "cpu_time": 7.7205239508121679e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:32/dim1:64/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 9414,
+      "real_time": 8.3492231326360141e+01,
+      "cpu_time": 8.3433461440408308e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:64/dim1:64/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 7788,
+      "real_time": 8.9890427438281080e+01,
+      "cpu_time": 8.9830999614791594e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:128/dim1:64/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 5019,
+      "real_time": 1.3946126216829927e+02,
+      "cpu_time": 1.3937795995218008e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:16/dim1:128/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 7570,
+      "real_time": 9.3402224685135579e+01,
+      "cpu_time": 9.3367804755614827e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:32/dim1:128/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 7333,
+      "real_time": 9.4531729337822185e+01,
+      "cpu_time": 9.4449113596073218e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:64/dim1:128/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 4845,
+      "real_time": 1.4542031598780054e+02,
+      "cpu_time": 1.4532278266254031e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:128/dim1:128/dim2:32/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 2794,
+      "real_time": 2.5057648448573536e+02,
+      "cpu_time": 2.5056378239084304e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:16/dim1:16/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8714,
+      "real_time": 8.1966069852088964e+01,
+      "cpu_time": 8.1963455244435323e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:32/dim1:16/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8473,
+      "real_time": 7.2202477399706069e+01,
+      "cpu_time": 7.2198473268028224e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:64/dim1:16/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 9699,
+      "real_time": 7.1724402698177272e+01,
+      "cpu_time": 7.1719355706775048e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:128/dim1:16/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8532,
+      "real_time": 8.0768426987650358e+01,
+      "cpu_time": 8.0745321964368017e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:16/dim1:32/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 9499,
+      "real_time": 7.5899912182648364e+01,
+      "cpu_time": 7.5898242657123319e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:32/dim1:32/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8901,
+      "real_time": 7.4720736877604992e+01,
+      "cpu_time": 7.4717783844509796e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:64/dim1:32/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8360,
+      "real_time": 8.3951526109806522e+01,
+      "cpu_time": 8.3932716148325284e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:128/dim1:32/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 5177,
+      "real_time": 1.3561432352564799e+02,
+      "cpu_time": 1.3561351129997826e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:16/dim1:64/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8467,
+      "real_time": 8.2635496494106064e+01,
+      "cpu_time": 8.2616138655959574e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:32/dim1:64/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 7838,
+      "real_time": 8.9253237923456567e+01,
+      "cpu_time": 8.9252679892831992e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:64/dim1:64/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 5181,
+      "real_time": 1.3500034600234565e+02,
+      "cpu_time": 1.3499640281799105e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:128/dim1:64/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 2923,
+      "real_time": 2.4136387925624359e+02,
+      "cpu_time": 2.4131376462539072e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:16/dim1:128/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 6252,
+      "real_time": 1.1299813856857561e+02,
+      "cpu_time": 1.1299817386436096e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:32/dim1:128/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 4486,
+      "real_time": 1.5509453651130306e+02,
+      "cpu_time": 1.5505609540793279e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:64/dim1:128/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 2759,
+      "real_time": 2.5599750164584347e+02,
+      "cpu_time": 2.5599755744835198e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:128/dim1:128/dim2:64/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 1559,
+      "real_time": 4.5089349252213032e+02,
+      "cpu_time": 4.5080100962155325e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:16/dim1:16/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 6430,
+      "real_time": 9.1916612460977547e+01,
+      "cpu_time": 9.1850069673412648e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:32/dim1:16/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 9153,
+      "real_time": 7.6123645913157446e+01,
+      "cpu_time": 7.6079961979682309e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:64/dim1:16/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 7639,
+      "real_time": 8.5990065700222274e+01,
+      "cpu_time": 8.5574907186802974e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:128/dim1:16/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 5339,
+      "real_time": 1.3146877371152928e+02,
+      "cpu_time": 1.3140413298370842e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:16/dim1:32/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 8382,
+      "real_time": 8.3613894307380136e+01,
+      "cpu_time": 8.3566331901692720e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:32/dim1:32/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 7627,
+      "real_time": 9.1965769892464436e+01,
+      "cpu_time": 9.1936087714697990e+01,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:64/dim1:32/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 4977,
+      "real_time": 1.4026190352794370e+02,
+      "cpu_time": 1.4017972131806437e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:128/dim1:32/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 2781,
+      "real_time": 2.4841239669851501e+02,
+      "cpu_time": 2.4841053002516847e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:16/dim1:64/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 5319,
+      "real_time": 1.1748898424898734e+02,
+      "cpu_time": 1.1719300263207626e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:32/dim1:64/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 4633,
+      "real_time": 1.5109712280093427e+02,
+      "cpu_time": 1.5067422382905326e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:64/dim1:64/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 2710,
+      "real_time": 2.5566130519133213e+02,
+      "cpu_time": 2.5550920885609307e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:128/dim1:64/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 1558,
+      "real_time": 4.5091323124122863e+02,
+      "cpu_time": 4.5059333183570277e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:16/dim1:128/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 3605,
+      "real_time": 1.8316544024028329e+02,
+      "cpu_time": 1.8310759112345221e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:32/dim1:128/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 2535,
+      "real_time": 2.7976297393176685e+02,
+      "cpu_time": 2.7964308757397544e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:64/dim1:128/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 1501,
+      "real_time": 4.6908533508373768e+02,
+      "cpu_time": 4.6902283944039351e+02,
+      "time_unit": "us"
+    },
+    {
+      "name": "fft3/f32/dim0:128/dim1:128/dim2:128/fft_dim:3",
+      "run_type": "iteration",
+      "iterations": 812,
+      "real_time": 8.7107687424684832e+02,
+      "cpu_time": 8.7071965517247304e+02,
+      "time_unit": "us"
+    }
+  ]
+}
