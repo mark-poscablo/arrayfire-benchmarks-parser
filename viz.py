@@ -1,7 +1,8 @@
 import dash
-from dash.dependencies import Input, Output
+from dash.dependencies import Input, Output, State, Event
 import dash_core_components as dcc
 import dash_html_components as html
+from dash.exceptions import CantHaveMultipleOutputs
 
 import json
 import plotly.graph_objs as go
@@ -47,9 +48,12 @@ class Result:
         name_split = name_str.split('/')
         self._benchmark_name = name_split[0]
         self._dtype = name_split[1]
+        # if self._benchmark_name == 'randuDimsBench':
+        #     print('Result.__init__: name_split: {}'.format(name_split))
         for i in range(2, len(name_split)):
             param_str = name_split[i].split(':')
-            self._params[param_str[0]] = int(param_str[1])
+            param_name = param_str[0].translate({ord(char): None for char in '[]'})
+            self._params[param_name] = int(param_str[1])
 
     @property
     def benchmark_name(self):
@@ -121,29 +125,34 @@ class Benchmark:
         for result in json_doc['benchmarks']:
             _result = Result(result)
 
-            if self._first_iter:
-                self._avail_params = sorted(_result.params.keys())
-                self._first_iter = False
+            # print('Benchmark.__init__: name: {}'.format(_result.benchmark_name))
+            # print('Benchmark.__init__: filters: {}'.format(filters))
+            if _result.benchmark_name == name:
+                # print('Benchmark.__init__: elem found!')
+                if self._first_iter:
+                    self._avail_params = sorted(_result.params.keys())
+                    # print('Benchmark.__init__: self._avail_params: {}'.format(self._avail_params))
+                    self._first_iter = False
 
-            if _result.dtype not in self._avail_dtypes:
-                self._avail_dtypes.append(_result.dtype)
-                self._param_vals[_result.dtype] = {}
-                for param in self._avail_params:
-                    self._param_vals[_result.dtype][param] = []
-                self._run_types[_result.dtype] = []
-                self._iterations[_result.dtype] = []
-                self._real_times[_result.dtype] = []
-                self._cpu_times[_result.dtype] = []
-                self._time_units[_result.dtype] = []
+                if _result.dtype not in self._avail_dtypes:
+                    self._avail_dtypes.append(_result.dtype)
+                    self._param_vals[_result.dtype] = {}
+                    for param in self._avail_params:
+                        self._param_vals[_result.dtype][param] = []
+                    self._run_types[_result.dtype] = []
+                    self._iterations[_result.dtype] = []
+                    self._real_times[_result.dtype] = []
+                    self._cpu_times[_result.dtype] = []
+                    self._time_units[_result.dtype] = []
 
-            if _result.benchmark_name == name and _result.passes_filters(filters):
-                for param in self._avail_params:
-                    self._param_vals[_result.dtype][param].append(_result.params[param])
-                self._run_types[_result.dtype].append(_result.run_type)
-                self._iterations[_result.dtype].append(_result.iterations)
-                self._real_times[_result.dtype].append(_result.real_time)
-                self._cpu_times[_result.dtype].append(_result.cpu_time)
-                self._time_units[_result.dtype].append(_result.time_unit)
+                if _result.passes_filters(filters):
+                    for param in self._avail_params:
+                        self._param_vals[_result.dtype][param].append(_result.params[param])
+                    self._run_types[_result.dtype].append(_result.run_type)
+                    self._iterations[_result.dtype].append(_result.iterations)
+                    self._real_times[_result.dtype].append(_result.real_time)
+                    self._cpu_times[_result.dtype].append(_result.cpu_time)
+                    self._time_units[_result.dtype].append(_result.time_unit)
 
         self._avail_dtypes.sort()
 
@@ -168,7 +177,9 @@ class Benchmark:
         return deepcopy(self._avail_params)
 
     def collect_param_vals(self, param_name, dtype):
-        print(self._param_vals)
+        print('collect_param_vals: self._param_vals: {}'.format(self._param_vals))
+        print('collect_param_vals: param_name: {}'.format(param_name))
+        print('collect_param_vals: dtype: {}'.format(dtype))
         return deepcopy(self._param_vals[dtype][param_name])
 
     def collect_run_types(self, dtype):
@@ -261,6 +272,7 @@ class BenchmarkInfo():
         return self._minparamvals[benchmark_name][param]
 
 app = dash.Dash('ArrayFire Benchmarks POC')
+app.config['suppress_callback_exceptions'] = True
 
 __benchmark_filepath = 'fft.json'
 __bench_info = BenchmarkInfo(__benchmark_filepath)
@@ -379,8 +391,19 @@ div_dropdown_benchmarks = html.Div(
     }
 )
 
+div_button_update_graph = html.Div(
+    children=[
+        html.Button('Update graph', id='button_update_graph')
+    ],
+    id='div_button_update_graph',
+    style={
+        'margin-bottom': '10px'
+    }
+)
+
 div_controls = html.Div(
     children=[
+        div_button_update_graph,
         div_dropdown_benchmarks,
         div_param_adj
     ],
@@ -421,26 +444,35 @@ for slider_div in sliders:
 graph_inputs.append(Input('radio_paramselect', 'value'))
 graph_inputs.append(Input('dropdown_benchmarks', 'value'))
 
-@app.callback(Output('graph_benchmark', 'figure'), graph_inputs)
-def update_graph(*args):
+@app.callback(Output('graph_benchmark', 'figure'),
+              [],
+              [
+                  State('dropdown_benchmarks', 'value'),
+                  State('radio_paramselect', 'value'),
+                  State('div_sliders', 'children'),
+              ],
+              [Event('div_button_update_graph', 'click')])
+def update_graph(curr_bench, indep_var, sliders_container):
     print('update_graph inputs:')
-    for arg in args:
-        print(arg)
-    sliders_len = len(sliders)
-    indep_var = args[sliders_len + 0]
-    curr_bench = args[sliders_len + 1]
+    # for arg in args:
+    #     print(arg)
+    # sliders_len = len(sliders)
+    # indep_var = args[sliders_len + 0]
+    # curr_bench = args[sliders_len + 1]
     print('Selected benchmark: {}'.format(curr_bench))
     print('Selected indep_var: {}'.format(indep_var))
     param_filters = {}
-    i = 0
-    for param in __bench_info.params(curr_bench):
+    for slider_div in sliders_container:
+        # label text, which should be the same as the param name
+        param = slider_div['props']['children'][0]['props']['children']
+        slider_val = slider_div['props']['children'][1]['props']['value']
+        paramval = __bench_info.paramvals(curr_bench, param)[slider_val]
         if param != indep_var:
             print('Selected {}: {}'.format(
                 param,
-                __bench_info.paramvals(curr_bench, param)[args[i]]
+                paramval
             ))
-            param_filters[param] = __bench_info.paramvals(curr_bench, param)[args[i]]
-        i += 1
+            param_filters[param] = paramval
 
     benchmark = Benchmark(
         filepath=__benchmark_filepath,
@@ -450,18 +482,12 @@ def update_graph(*args):
 
     sizes = benchmark.collect_param_vals(indep_var, Dtypes.f32)
     f32_times = benchmark.collect_real_times(Dtypes.f32)
-    f64_times = benchmark.collect_real_times(Dtypes.f64)
 
     return {
         'data': [{
             'name': Dtypes.f32,
             'x': sizes,
             'y': f32_times
-        },
-        {
-            'name': Dtypes.f64,
-            'x': sizes,
-            'y': f64_times
         }],
         'layout': go.Layout(
             xaxis={
@@ -475,7 +501,7 @@ def update_graph(*args):
 
 @app.callback(Output('radio_paramselect', 'options'), [Input('dropdown_benchmarks', 'value')])
 def update_radio_paramselect_options(dropdown_value):
-    return [{'value': param} for param in __bench_info.params(dropdown_value)]
+    return [{'label': param, 'value': param} for param in __bench_info.params(dropdown_value)]
 
 @app.callback(Output('radio_paramselect', 'value'), [Input('dropdown_benchmarks', 'value')])
 def update_radio_paramselect_value(dropdown_value):
@@ -495,6 +521,27 @@ for slider_div in sliders:
                      Input(slider.id, 'id')
                  ]
     )(update_slider_disabled)
+
+@app.callback(Output('radio_paramselect', 'style'),
+              [Input('div_sliders', 'children')],
+              [State('dropdown_benchmarks', 'value')])
+def set_slider_disable_callback(sliders_container, radio_value):
+    for slider_div in sliders_container:
+        slider_id = slider_div['props']['children'][1]['props']['id']
+        print('set_slider_disable_callback: {}'.format(slider_id))
+        try:
+            app.callback(Output(slider_id, 'disabled'),
+                         [
+                             Input('radio_paramselect', 'value'),
+                             Input(slider_id, 'id')
+                         ]
+               )(update_slider_disabled)
+        except CantHaveMultipleOutputs:
+            pass
+
+    for k, v in app.callback_map.items():
+        print('{}: {}'.format(k, v))
+        print()
 
 @app.callback(Output('div_sliders', 'children'), [Input('dropdown_benchmarks', 'value')])
 def update_sliders(dropdown_value):
