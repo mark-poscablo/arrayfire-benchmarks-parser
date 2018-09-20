@@ -1,3 +1,5 @@
+numpy
+matplotlib
 plotly
 dash
 dash_core_components
