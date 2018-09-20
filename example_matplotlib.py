@@ -3,7 +3,7 @@ from afbench import Benchmark, BenchmarkInfo
 import numpy as np
 import matplotlib.pyplot as plt
 
-fft_info = BenchmarkInfo('fft.json')
+fft_info = BenchmarkInfo('benchmarks/fft.json')
 print('Available benchmarks: {}'.format(fft_info.benchmark_names))
 for bench in fft_info.benchmark_names:
     print('{} parameters:'.format(bench))
@@ -11,7 +11,7 @@ for bench in fft_info.benchmark_names:
         print('{}: {}'.format(param, fft_info.paramvals(bench, 'f32', param)))
 
 fft1 = Benchmark(
-    filepath='fft.json',
+    filepath='benchmarks/fft.json',
     name='fft1',
     filters={
         'dim1': 1,
@@ -23,7 +23,7 @@ fft1_x_vals = fft1.collect_param_vals('dim0', 'f32')
 fft1_y_vals = fft1.collect_real_times('f32')
 
 fft2 = Benchmark(
-    filepath='fft.json',
+    filepath='benchmarks/fft.json',
     name='fft2',
     filters={
         'dim1': 16,
